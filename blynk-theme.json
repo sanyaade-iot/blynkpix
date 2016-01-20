@@ -297,7 +297,8 @@
             "illustrationsBackgroundColor": 6,
             "separatorColor": 0,
             "separatorAlpha": 0.1,
-            "labelTextStyle": "settingsLabel"
+            "labelTextStyle": "settingsLabel",
+            "customizedPalette":[0, 1, 2, 3, 4, 5]
         },
         
         "Button": {
