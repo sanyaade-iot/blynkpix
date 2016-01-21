@@ -205,9 +205,10 @@
             "size": 12,
             "font": "terminal"
         },
-        "zeRGBaValueLabel": {
+        "widgetPinLabel": {
             "size": 10,
-            "font": "primary"
+            "font": "primary",
+            "color": 8
         }
     },
     
@@ -217,6 +218,7 @@
         "backgroundColor": 7,
         "cornerRadius": 3,
         "nameLabelTextStyle": "widgetSmall",
+        "pinLabelTextStyle": "widgetPinLabel",
         "shadowColor": 9,
         "shadowAlpha": 0.4,
         "highlightColor": 0,
@@ -259,7 +261,8 @@
             "graphLine2Color": 2,
             "graphLine3Color": 5,
             "graphLine4Color": 4,
-            "gridBackgroundColor": 6
+            "gridBackgroundColor": 6,
+            "gridBackgroundAlpha": 1
         },
         
         "Gauge": {
@@ -276,7 +279,7 @@
         "zeRGBa":{
             "handleStrokeColor": 0,
             "handleStrokeWidth": 2,
-            "pinValuesTextStyle" : "zeRGBaValueLabel"
+            "pinValuesTextStyle" : "widgetPinLabel"
         },
 
         "Terminal":{
@@ -291,7 +294,6 @@
     },
     
     "WidgetSettings": {
-        
         "Body": {
             "backgroundColor": 6,
             "illustrationsBackgroundColor": 6,

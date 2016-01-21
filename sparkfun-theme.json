@@ -62,9 +62,9 @@
         },
         "timestamp": {
             "size": 8,
-            "color": 0,
+            "color": 6,
             "font": "primary",
-            "alpha": 0.65
+            "alpha": 1.0
         },
         "legend1": {
             "size": 10,
@@ -201,9 +201,10 @@
             "size": 12,
             "font": "terminal"
         },
-        "zeRGBaValueLabel": {
+        "widgetPinLabel": {
             "size": 10,
-            "font": "primary"
+            "font": "primary",
+            "color": 8
         }
     },
     
@@ -213,6 +214,7 @@
         "backgroundColor": 0,
         "cornerRadius": 2,
         "nameLabelTextStyle": "widgetSmall",
+        "pinLabelTextStyle": "widgetPinLabel",
         "shadowColor": 7,
         "shadowAlpha": 0.4,
         "highlightColor": 0,
@@ -247,33 +249,23 @@
         },
         
         "HistoryGraph": {
-            "legend1LabelTextColor": 1,
-            "legend2LabelTextColor": 2,
-            "legend3LabelTextColor": 5,
-            "legend4LabelTextColor": 4,
-            "legendLabelTextFont": "PFDinDisplayPro-Light",
-            "legendLabelTextSize": 10,
-            "legendLabelTextAlpha": 1,
-            "timestampLabelTextFont": "PFDinDisplayPro-Light",
-            "timestampLabelTextSize": 8,
-            "timestampLabelTextColor": 0,
-            "timestampLabelTextAlpha": 0.65,
-            "rangeSelectorPressedColor": 0,
-            "rangeSelectorPressedAlpha": 1.0,
-            "rangeSelectorIdleColor": 0,
-            "rangeSelectorIdleAlpha": 0.5,
-            "gridLinesColor": 0,
-            "gridLinesAlpha": 0.65,
-            "graphLine1Color": 1,
-            "graphLine1Alpha": 1.0,
-            "graphLine2Color": 2,
-            "graphLine2Alpha": 1.0,
-            "graphLine3Color": 5,
-            "graphLine3Alpha": 1.0,
-            "graphLine4Color": 4,
-            "graphLine4Alpha": 1.0,
+            "legend1LabelTextStyle": "legend1",
+            "legend2LabelTextStyle": "legend2",
+            "legend3LabelTextStyle": "legend3",
+            "legend4LabelTextStyle": "legend4",
+            "timestampLabelTextStyle": "timestamp",
+            "rangeSelectorPressedColor": 1,
+            "rangeSelectorPressedAlpha": 1,
+            "rangeSelectorIdleColor": 9,
+            "rangeSelectorIdleAlpha": 1,
+            "gridLinesColor": 6,
+            "gridLinesAlpha": 0.5,
+            "graphLine1Color": 3,
+            "graphLine2Color": 4,
+            "graphLine3Color": 1,
+            "graphLine4Color": 10,
             "gridBackgroundColor": 6,
-            "gridBackgroundAlpha": 1.0
+            "gridBackgroundAlpha": 0.05
         },
         
         "LCD": {
@@ -283,7 +275,7 @@
         "zeRGBa":{
             "handleStrokeColor": 0,
             "handleStrokeWidth": 2,
-            "pinValuesTextStyle" : "zeRGBaValueLabel"
+            "pinValuesTextStyle" : "widgetPinLabel"
         },
         
         "Terminal":{
@@ -298,7 +290,6 @@
     },
     
     "WidgetSettings": {
-        
         "Body": {
             "backgroundColor": 0,
             "illustrationsBackgroundColor": 0,
