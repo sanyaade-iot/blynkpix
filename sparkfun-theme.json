@@ -1,15 +1,16 @@
 {
     "colors": [
-               "#88FF88",
-               "#FF0000",
-               "#00FF00",
-               "#0000FF",
-               "#FF8800",
-               "#00FFFF",
-               "#880088",
-               "#002200",
-               "#000088",
-               "#004400"
+               "#FFFFFF",
+               "#E6324D",
+               "#000000",
+               "#64AC83",
+               "#7091A9",
+               "#B1B3A0",
+               "#3C464D",
+               "#D2D8DC",
+               "#7D918B",
+               "#9EA3A6",
+               "#EA9D3A"
                ],
     
     "fonts": {
@@ -33,9 +34,9 @@
         },
         "widgetSmall": {
             "size": 10,
-            "color": 0,
+            "color": 2,
             "font": "primary",
-            "alpha": 0.65
+            "alpha": 1.0
         },
         "widgetSeparator": {
             "size": 12,
@@ -45,7 +46,7 @@
         },
         "header": {
             "size": 24,
-            "color": 6,
+            "color": 0,
             "font": "primary"
         },
         "widgetButtonNormal": {
@@ -87,13 +88,13 @@
         },
         "settingsLabel": {
             "size": 12,
-            "color": 0,
+            "color": 8,
             "font": "primary",
-            "alpha": 0.9
+            "alpha": 1.0
         },
         "settingsInputField": {
             "size": 22,
-            "color": 0,
+            "color": 2,
             "font": "primary",
             "uppercase": true
         },
@@ -112,17 +113,17 @@
         },
         "settingsLarge": {
             "size": 22,
-            "color": 0,
+            "color": 2,
             "font": "primary"
         },
         "settingsHint": {
             "size": 16,
-            "color": 0,
+            "color": 2,
             "font": "terminal"
         },
         "settingsSmall": {
             "size": 12,
-            "color": 0,
+            "color": 2,
             "font": "primary"
         },
         "settingsPrimaryButton": {
@@ -142,18 +143,18 @@
         },
         "settingsCriticalButton": {
             "size": 24,
-            "color": 5,
+            "color": 1,
             "font": "primary"
         },
         "switchIdleLabel": {
             "size": 19,
-            "color": 0,
+            "color": 9,
             "font": "primary",
-            "alpha": 0.45
+            "alpha": 0.8
         },
         "switchActiveLabel": {
             "size": 19,
-            "color": 0,
+            "color": 6,
             "font": "primary",
             "uppercase": true
         },
@@ -164,7 +165,7 @@
         },
         "settingsTerminalLabel": {
             "size": 12,
-            "color": 0,
+            "color": 2,
             "font": "terminal"
         },
         "settingsSwitchButton": {
@@ -208,11 +209,11 @@
     
     "WidgetBaseStyle": {
         "borderStrokeWidth": 1,
-        "borderStrokeColor": 6,
-        "backgroundColor": 7,
-        "cornerRadius": 3,
+        "borderStrokeColor": 7,
+        "backgroundColor": 0,
+        "cornerRadius": 2,
         "nameLabelTextStyle": "widgetSmall",
-        "shadowColor": 9,
+        "shadowColor": 7,
         "shadowAlpha": 0.4,
         "highlightColor": 0,
         "highlightAlpha": 0.25,
@@ -224,14 +225,14 @@
         
         "Slider": {
             "baseColor": 0,
-            "handleStrokeColor": 0,
-            "handleStrokeAlpha": 1.0,
-            "handleStrokeWidth": 2,
-            "handleFillColor": 7,
-            "handleCornerRadius": 3,
-            "handleShadowColor": 9,
-            "handleShadowAlpha": 1.0,
-            "handleShadowBlur": 0,
+            "handleStrokeColor": 6,
+            "handleStrokeAlpha": 0.8,
+            "handleStrokeWidth": 0,
+            "handleFillColor": 0,
+            "handleCornerRadius": 13,
+            "handleShadowColor": 6,
+            "handleShadowAlpha": 0.8,
+            "handleShadowBlur": 10.0,
             "pathColor": 0,
             "pathAlpha": 0.3,
             "pathCornerRadius": 1,
@@ -239,14 +240,10 @@
         },
         
         "Gauge": {
-            "valueLabelTextFont": "PFDinDisplayPro-Light",
-            "valueLabelTextSize": 24,
-            "minMaxLabelTextFont": "PFDinDisplayPro-Light",
-            "minMaxLabelTextSize": 15,
-            "minMaxLabelTextColor": 1,
-            "minMaxLabelTextAlpha": 1.0,
-            "pathColor": 5,
-            "pathAlpha": 0.2
+            "valueLabelTextStyle": "widgetLarge",
+            "minMaxLabelTextStyle": "widgetSmall",
+            "pathBackgroundColor": 9,
+            "pathBackgroundAlpha": 0.3
         },
         
         "HistoryGraph": {
@@ -296,19 +293,19 @@
     },
     
     "Header": {
-        "backgroundColor":0,
+        "backgroundColor":1,
         "textStyle": "header"
     },
     
     "WidgetSettings": {
         
         "Body": {
-            "backgroundColor": 6,
-            "illustrationsBackgroundColor": 6,
-            "separatorColor": 1,
-            "separatorAlpha": 0.9,
+            "backgroundColor": 0,
+            "illustrationsBackgroundColor": 0,
+            "separatorColor": 8,
+            "separatorAlpha": 0.5,
             "labelTextStyle": "settingsLabel",
-            "customizedPalette":[0, 1, 2, 3, 4, 5]
+            "customizedPalette":[1, 10, 3, 4, 6, 5]
         },
 
         "Button": {
@@ -332,15 +329,15 @@
             },
             
             "CriticalButton": {
-                "strokeColor": 5,
+                "strokeColor": 1,
                 "labelTextStyle": "settingsCriticalButton"
             }
         },
         
         "InputField": {
-            "strokeColor": 0,
+            "strokeColor": 9,
             "strokeAlpha": 1,
-            "strokeUnselectedAlpha": 0.35,
+            "strokeUnselectedAlpha": 1.0,
             "textStyle": "settingsInputField",
             "hintAlpha": 0.5,
             "cornerRadius": 3,
@@ -348,19 +345,19 @@
         },
         
         "InputPinField": {
-            "strokeColor": 1,
+            "strokeColor": 2,
             "strokeAlpha": 1,
-            "strokePressedAlpha": 0.35,
+            "strokePressedAlpha": 1.0,
             "textStyle": "settingsInputField",
             "selectedTextStyle": "settingsInputFieldSelected",
-            "pinColors":[1, 2, 3, 4],
+            "pinColors":[9, 2, 3, 4],
             "cornerRadius": 3,
             "strokeWidth": 2
         },
         
         "Switch": {
-            "strokeColor": 0,
-            "circleColor": 1,
+            "strokeColor": 6,
+            "circleColor": 6,
             "activeLabelTextStyle": "switchActiveLabel",
             "idleLabelTextStyle": "switchIdleLabel"
         },
@@ -374,16 +371,16 @@
         },
         
         "LCD" : {
-            "label1Color" :  1,
-            "label2Color" :  2,
+            "label1Color" :  3,
+            "label2Color" :  4,
             "messageFieldHintTextStyle" : "settingsHint",
             "fontLabelTextStyle" : "settingsLarge"
         },
         
         "zeRGBa" : {
-            "rangeValues1Color" :  5,
-            "rangeValues2Color" :  1,
-            "rangeValues3Color" :  3
+            "rangeValues1Color" :  1,
+            "rangeValues2Color" :  3,
+            "rangeValues3Color" :  4
         },
         
         "Terminal" : {
