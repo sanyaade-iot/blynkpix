@@ -255,7 +255,8 @@
         
         "Button": {
             "textStyle": "widgetButtonNormal",
-            "baseColor": 0
+            "baseColor": 0,
+            "defaultColor": 1
         },
         
         "Slider": {
@@ -299,6 +300,7 @@
             "minMaxLabelTextStyle": "widgetSmall",
             "pathBackgroundColor": 9,
             "pathBackgroundAlpha": 0.3,
+            "defaultColor": 4
         },
         
         "LCD": {
@@ -315,7 +317,8 @@
             "inputLineTextStyle" : "terminalInputLine",
             "shouldStyleBackgroud" : false,
             "shouldStyleFont" : true,
-            "backgroundColor": 9
+            "backgroundColor": 9,
+            "defaultColor": 0
         }
     },
     

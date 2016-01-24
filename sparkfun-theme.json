@@ -256,7 +256,8 @@
 
         "Button": {
             "textStyle": "widgetButtonNormal",
-            "baseColor": 0
+            "baseColor": 0,
+            "defaultColor": 1
         },
         
         "Slider": {
@@ -316,7 +317,8 @@
             "inputLineTextStyle" : "terminalInputLine",
             "shouldStyleBackgroud" : true,
             "shouldStyleFont" : false,
-            "fontColor": 0
+            "fontColor": 0,
+            "defaultColor": 6
         }
     },
     
