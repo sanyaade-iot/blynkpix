@@ -10,7 +10,8 @@
                "#D2D8DC",
                "#7D918B",
                "#9EA3A6",
-               "#EA9D3A"
+               "#EA9D3A",
+               "#E3DCCC",
                ],
     
     "fonts": {
@@ -129,22 +130,26 @@
         "settingsPrimaryButton": {
             "size": 24,
             "color": 0,
-            "font": "primary"
+            "font": "primary",
+            "uppercase": true
         },
         "settingsSecondaryButton1": {
             "size": 24,
-            "color": 3,
-            "font": "primary"
+            "color": 2,
+            "font": "primary",
+            "uppercase": true
         },
         "settingsSecondaryButton2": {
             "size": 24,
-            "color": 1,
-            "font": "primary"
+            "color": 2,
+            "font": "primary",
+            "uppercase": true
         },
         "settingsCriticalButton": {
             "size": 24,
             "color": 1,
-            "font": "primary"
+            "font": "primary",
+            "uppercase": true
         },
         "switchIdleLabel": {
             "size": 19,
@@ -205,6 +210,33 @@
             "size": 10,
             "font": "primary",
             "color": 8
+        },
+        "projectSettingsGuide": {
+            "size": 19,
+            "font": "primary",
+            "color": 8
+        },
+        "projectSettingsToken": {
+            "size": 17,
+            "font": "primary",
+            "color": 1,
+            "uppercase": true
+        }
+    },
+    
+    "ProjectSettings": {
+        
+        "backgroundColor": 0,
+        "guideTextStyle": "projectSettingsGuide",
+        "tokenTextStyle": "projectSettingsToken",
+        
+        "SharingLink": {
+            "guideLabel1TextStyle": "",
+            "guideLabel2TextStyle": "",
+        },
+        "SharingGuide": {
+            "guideLabel1TextStayle": "",
+            "guideLabel2TextStayle": "",
         }
     },
     
@@ -219,7 +251,9 @@
         "shadowAlpha": 0.4,
         "highlightColor": 0,
         "highlightAlpha": 0.25,
-        
+        "defaultReadColor": 1,
+        "defaultWriteColor": 10,
+
         "Button": {
             "textStyle": "widgetButtonNormal",
             "baseColor": 0
@@ -269,7 +303,7 @@
         },
         
         "LCD": {
-            "messageLabelTextStyle": "lcdMessageLabel",
+            "messageLabelTextStyle": "lcdMessageLabel"
         },
         
         "zeRGBa":{
@@ -280,7 +314,9 @@
         
         "Terminal":{
             "inputLineTextStyle" : "terminalInputLine",
-            "backgroundColor": 6
+            "shouldStyleBackgroud" : true,
+            "shouldStyleFont" : false,
+            "fontColor": 0
         }
     },
     
@@ -292,7 +328,7 @@
     "WidgetSettings": {
         "Body": {
             "backgroundColor": 0,
-            "illustrationsBackgroundColor": 0,
+            "illustrationsBackgroundColor": 6,
             "separatorColor": 8,
             "separatorAlpha": 0.5,
             "labelTextStyle": "settingsLabel",
@@ -300,27 +336,28 @@
         },
 
         "Button": {
-            "cornerRadius": 10,
-            "selectedAlpha": 0.35,
             
-            "PrimaryButon": {
-                "strokeColor": 1,
+            "selectedAlpha": 0.35,
+            "strokeWidth": 0,
+
+            "PrimaryButton": {
                 "backgroundColor": 1,
                 "labelTextStyle": "settingsPrimaryButton"
             },
             
-            "SecondaryButon1": {
-                "strokeColor": 3,
+            "SecondaryButton1": {
+                "backgroundColor": 11,
                 "labelTextStyle": "settingsSecondaryButton1"
             },
             
-            "SecondaryButon2": {
-                "strokeColor": 1,
+            "SecondaryButton2": {
+                "backgroundColor": 7,
                 "labelTextStyle": "settingsSecondaryButton2"
             },
             
             "CriticalButton": {
-                "strokeColor": 1,
+                "backgroundAlpha": 0.2,
+                "backgroundColor": 1,
                 "labelTextStyle": "settingsCriticalButton"
             }
         },

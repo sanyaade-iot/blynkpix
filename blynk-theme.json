@@ -133,17 +133,17 @@
         },
         "settingsPrimaryButton": {
             "size": 24,
-            "color": 0,
+            "color": 9,
             "font": "primary"
         },
         "settingsSecondaryButton1": {
             "size": 24,
-            "color": 3,
+            "color": 1,
             "font": "primary"
         },
         "settingsSecondaryButton2": {
             "size": 24,
-            "color": 1,
+            "color": 3,
             "font": "primary"
         },
         "settingsCriticalButton": {
@@ -209,10 +209,37 @@
             "size": 10,
             "font": "primary",
             "color": 8
+        },
+        "projectSettingsGuide": {
+            "size": 19,
+            "font": "primary",
+            "color": 1
+        },
+        "projectSettingsToken": {
+            "size": 17,
+            "font": "primary",
+            "color": 3
+        }
+    },
+
+    "ProjectSettings": {
+        
+        "backgroundColor": 6,
+        "guideTextStyle": "projectSettingsGuide",
+        "tokenTextStyle": "projectSettingsToken",
+        
+        "SharingLink": {
+            "guideLabel1TextStyle": "",
+            "guideLabel2TextStyle": "",
+        },
+        "SharingGuide": {
+            "guideLabel1TextStayle": "",
+            "guideLabel2TextStayle": "",
         }
     },
     
     "WidgetBaseStyle": {
+        
         "borderStrokeWidth": 1,
         "borderStrokeColor": 6,
         "backgroundColor": 7,
@@ -223,6 +250,8 @@
         "shadowAlpha": 0.4,
         "highlightColor": 0,
         "highlightAlpha": 0.25,
+        "defaultReadColor": 1,
+        "defaultWriteColor": 4,
         
         "Button": {
             "textStyle": "widgetButtonNormal",
@@ -269,7 +298,7 @@
             "valueLabelTextStyle": "widgetLarge",
             "minMaxLabelTextStyle": "widgetSmall",
             "pathBackgroundColor": 9,
-            "pathBackgroundAlpha": 0.3
+            "pathBackgroundAlpha": 0.3,
         },
         
         "LCD": {
@@ -284,7 +313,9 @@
 
         "Terminal":{
             "inputLineTextStyle" : "terminalInputLine",
-            "backgroundColor": 6
+            "shouldStyleBackgroud" : false,
+            "shouldStyleFont" : true,
+            "backgroundColor": 9
         }
     },
     
@@ -304,27 +335,31 @@
         },
         
         "Button": {
-            "cornerRadius": 10,
-            "selectedAlpha": 0.35,
             
-            "PrimaryButon": {
-                "strokeColor": 1,
+            "selectedAlpha": 0.35,
+            "strokeWidth": 2,
+            
+            "PrimaryButton": {
+                "strokeWidth": 0,
                 "backgroundColor": 1,
                 "labelTextStyle": "settingsPrimaryButton"
             },
-            
-            "SecondaryButon1": {
-                "strokeColor": 3,
+
+            "SecondaryButton1": {
+                "strokeColor": 1,
+                "backgroundColor": 6,
                 "labelTextStyle": "settingsSecondaryButton1"
             },
             
-            "SecondaryButon2": {
-                "strokeColor": 1,
+            "SecondaryButton2": {
+                "strokeColor": 3,
+                "backgroundColor": 6,
                 "labelTextStyle": "settingsSecondaryButton2"
             },
             
             "CriticalButton": {
                 "strokeColor": 5,
+                "backgroundColor": 6,
                 "labelTextStyle": "settingsCriticalButton"
             }
         },
