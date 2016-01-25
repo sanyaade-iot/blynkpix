@@ -14,7 +14,8 @@
                "#1D1E22",
                "#27292D",
                "#B3B3B3",
-               "#000000"
+               "#000000",
+               "#131319"
                ],
     
     "fonts": {
@@ -219,9 +220,21 @@
             "size": 17,
             "font": "primary",
             "color": 3
+        },
+        "dashboardMessage": {
+            "size": 18,
+            "font": "primary",
+            "color": 4
         }
     },
-
+    
+    "Dashboard": {
+        
+        "backgroundColor": 10,
+        "messageBackgroundColor": 10,
+        "messageTextStyle": "dashboardMessage"
+    },
+    
     "ProjectSettings": {
         
         "backgroundColor": 6,
