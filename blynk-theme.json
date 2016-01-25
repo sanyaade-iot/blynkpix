@@ -243,11 +243,11 @@
         
         "SharingLink": {
             "guideLabel1TextStyle": "",
-            "guideLabel2TextStyle": "",
+            "guideLabel2TextStyle": ""
         },
         "SharingGuide": {
-            "guideLabel1TextStayle": "",
-            "guideLabel2TextStayle": "",
+            "guideLabel1TextStyle": "",
+            "guideLabel2TextStyle": ""
         }
     },
     
@@ -317,7 +317,7 @@
         },
         
         "LCD": {
-            "messageLabelTextStyle": "lcdMessageLabel",
+            "messageLabelTextStyle": "lcdMessageLabel"
         },
 
         "zeRGBa":{
