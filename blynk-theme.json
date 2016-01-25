@@ -326,7 +326,7 @@
 
         "Terminal":{
             "inputLineTextStyle" : "terminalInputLine",
-            "shouldStyleBackgroud" : false,
+            "shouldStyleBackground" : false,
             "shouldStyleFont" : true,
             "backgroundColor": 9,
             "defaultColor": 0
