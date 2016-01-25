@@ -245,11 +245,11 @@
         
         "SharingLink": {
             "guideLabel1TextStyle": "",
-            "guideLabel2TextStyle": "",
+            "guideLabel2TextStyle": ""
         },
         "SharingGuide": {
             "guideLabel1TextStayle": "",
-            "guideLabel2TextStayle": "",
+            "guideLabel2TextStayle": ""
         }
     },
     
