@@ -268,12 +268,10 @@
         
         "Button": {
             "textStyle": "widgetButtonNormal",
-            "baseColor": 0,
             "defaultColor": 1
         },
         
         "Slider": {
-            "baseColor": 0,
             "handleStrokeColor": 0,
             "handleStrokeAlpha": 0.6,
             "handleStrokeWidth": 1,
