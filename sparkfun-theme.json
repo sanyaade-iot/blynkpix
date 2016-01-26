@@ -335,7 +335,7 @@
             "defaultColor": 6
         },
         
-        "LЕD": {
+        "LED": {
             "strokeColor": 6
         }
     },
@@ -412,7 +412,7 @@
         
         "Picker": {
             "headerTextStyle": "pickerHeader",
-            "backgroundColor": 6,
+            "backgroundColor": 0,
             "pinTypeTextStyle": "settingsLarge",
             "pinNumberTextStyle": "settingsLarge",
             "busyTextStyle": "settingsBusyPin",
