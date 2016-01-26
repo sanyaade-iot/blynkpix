@@ -1,4 +1,7 @@
 {
+    "name": "SparkFun",
+    "description": "SparkFun boards theme",
+    "version": 1,
     "colors": [
                "#FFFFFF",
                "#E6324D",
@@ -224,9 +227,14 @@
             "uppercase": true
         },
         "dashboardMessage": {
-            "size": 18,
+            "size": 16,
             "font": "primary",
             "color": 0
+        },
+        "pickerItem": {
+            "size": 18,
+            "font": "primary",
+            "color": 6
         }
     },
     
@@ -241,16 +249,7 @@
         
         "backgroundColor": 0,
         "guideTextStyle": "projectSettingsGuide",
-        "tokenTextStyle": "projectSettingsToken",
-        
-        "SharingLink": {
-            "guideLabel1TextStyle": "",
-            "guideLabel2TextStyle": ""
-        },
-        "SharingGuide": {
-            "guideLabel1TextStayle": "",
-            "guideLabel2TextStayle": ""
-        }
+        "tokenTextStyle": "projectSettingsToken"
     },
     
     "WidgetBaseStyle": {
@@ -326,7 +325,7 @@
         
         "Terminal":{
             "inputLineTextStyle" : "terminalInputLine",
-            "shouldStyleBackgroud" : true,
+            "shouldStyleBackground" : true,
             "shouldStyleFont" : false,
             "fontColor": 0,
             "defaultColor": 6
@@ -345,7 +344,8 @@
             "separatorColor": 8,
             "separatorAlpha": 0.5,
             "labelTextStyle": "settingsLabel",
-            "customizedPalette":[1, 10, 3, 4, 6, 5]
+            "customizedPalette":[1, 10, 3, 4, 6, 5],
+            "pickerTextStyle": "pickerItem"
         },
 
         "Button": {

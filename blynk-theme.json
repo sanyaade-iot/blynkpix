@@ -222,16 +222,21 @@
             "color": 3
         },
         "dashboardMessage": {
-            "size": 18,
+            "size": 16,
             "font": "primary",
             "color": 4
+        },
+        "pickerItem": {
+            "size": 18,
+            "font": "primary",
+            "color": 0
         }
     },
     
     "Dashboard": {
         
         "backgroundColor": 10,
-        "messageBackgroundColor": 10,
+        "messageBackgroundColor": 6,
         "messageTextStyle": "dashboardMessage"
     },
     
@@ -239,16 +244,7 @@
         
         "backgroundColor": 6,
         "guideTextStyle": "projectSettingsGuide",
-        "tokenTextStyle": "projectSettingsToken",
-        
-        "SharingLink": {
-            "guideLabel1TextStyle": "",
-            "guideLabel2TextStyle": ""
-        },
-        "SharingGuide": {
-            "guideLabel1TextStyle": "",
-            "guideLabel2TextStyle": ""
-        }
+        "tokenTextStyle": "projectSettingsToken"        
     },
     
     "WidgetBaseStyle": {
@@ -345,7 +341,8 @@
             "separatorColor": 0,
             "separatorAlpha": 0.1,
             "labelTextStyle": "settingsLabel",
-            "customizedPalette":[1, 2, 3, 4, 5, 0]
+            "customizedPalette":[1, 2, 3, 4, 5, 0],
+            "pickerTextStyle": "pickerItem"
         },
         
         "Button": {
