@@ -225,11 +225,6 @@
             "size": 16,
             "font": "primary",
             "color": 4
-        },
-        "pickerItem": {
-            "size": 18,
-            "font": "primary",
-            "color": 0
         }
     },
     
@@ -341,8 +336,7 @@
             "separatorColor": 0,
             "separatorAlpha": 0.1,
             "labelTextStyle": "settingsLabel",
-            "customizedPalette":[1, 2, 3, 4, 5, 0],
-            "pickerTextStyle": "pickerItem"
+            "customizedPalette":[1, 2, 3, 4, 5, 0]
         },
         
         "Button": {
@@ -401,6 +395,20 @@
             "circleColor": 0,
             "activeLabelTextStyle": "switchActiveLabel",
             "idleLabelTextStyle": "switchIdleLabel"
+        },
+
+        "Picker": {
+            "Header": {
+                "backgroundColor": 1,
+                "textStyle": "header"
+            },
+            "backgroundColor": 6,
+            "pinTypeTextStyle": "settingsLarge",
+            "pinNumberTextStyle": "settingsLarge",
+            "busyTextStyle": "settingsBusyPin",
+            "pwmTextStyle": "settingsPwmPin",
+            "separatorColor": 0,
+            "separatorAlpha": 0.45
         },
         
         "LCD" : {
