@@ -408,10 +408,7 @@
         },
 
         "Picker": {
-            "Header": {
-                "backgroundColor": 1,
-                "textStyle": "header"
-            },
+            "headerTextColor": 1,
             "backgroundColor": 6,
             "pinTypeTextStyle": "settingsLarge",
             "pinNumberTextStyle": "settingsLarge",
