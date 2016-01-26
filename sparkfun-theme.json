@@ -239,6 +239,20 @@
             "size": 14,
             "color": 1,
             "font": "primary"
+        },
+        "timerValueLabel": {
+            "size": 27,
+            "font": "primary"
+        },
+        "valueDisplayValueLabel": {
+            "size": 27,
+            "font": "primary"
+        },
+        "intervalBorderLabel": {
+            "size": 12,
+            "font": "primary",
+            "color": 1,
+            "uppercase": true
         }
     },
     
@@ -337,6 +351,14 @@
         
         "LED": {
             "strokeColor": 6
+        },
+        
+        "Timer": {
+            "timerTextStyle": "timerValueLabel"
+        },
+        
+        "ValueDisplay": {
+            "valueTextStyle": "valueDisplayValueLabel"
         }
     },
     
@@ -436,6 +458,10 @@
         
         "Terminal" : {
             "textLabelTextStyle" : "settingsTerminalLabel"
+        },
+        
+        "Timer": {
+            "intervalBorderTextStyle": "intervalBorderLabel"
         }
     }
 }
