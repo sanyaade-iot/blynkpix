@@ -13,7 +13,6 @@
                "#D2D8DC",
                "#7D918B",
                "#9EA3A6",
-               "#EA9D3A",
                "#E3DCCC",
                "#A4B2AE"
                ],
@@ -241,7 +240,7 @@
     "Dashboard": {
         
         "backgroundColor": 7,
-        "messageBackgroundColor": 12,
+        "messageBackgroundColor": 11,
         "messageTextStyle": "dashboardMessage"
     },
     
@@ -264,7 +263,7 @@
         "highlightColor": 0,
         "highlightAlpha": 0.25,
         "defaultReadColor": 1,
-        "defaultWriteColor": 10,
+        "defaultWriteColor": 3,
 
         "Button": {
             "textStyle": "widgetButtonNormal",
@@ -273,13 +272,13 @@
         
         "Slider": {
             "handleStrokeColor": 6,
-            "handleStrokeAlpha": 0.8,
+            "handleStrokeAlpha": 0.5,
             "handleStrokeWidth": 0,
             "handleFillColor": 0,
             "handleCornerRadius": 13,
             "handleShadowColor": 6,
             "handleShadowAlpha": 0.8,
-            "handleShadowBlur": 10.0,
+            "handleShadowBlur": 5.0,
             "pathColor": 0,
             "pathAlpha": 0.3,
             "pathCornerRadius": 1,
@@ -308,7 +307,7 @@
             "graphLine1Color": 3,
             "graphLine2Color": 4,
             "graphLine3Color": 1,
-            "graphLine4Color": 10,
+            "graphLine4Color": 5,
             "gridBackgroundColor": 6,
             "gridBackgroundAlpha": 0.05
         },
@@ -344,7 +343,7 @@
             "separatorColor": 8,
             "separatorAlpha": 0.5,
             "labelTextStyle": "settingsLabel",
-            "customizedPalette":[1, 10, 3, 4, 6, 5],
+            "customizedPalette":[1, 6, 3, 4, 5],
             "pickerTextStyle": "pickerItem"
         },
 
@@ -359,7 +358,7 @@
             },
             
             "SecondaryButton1": {
-                "backgroundColor": 11,
+                "backgroundColor": 10,
                 "labelTextStyle": "settingsSecondaryButton1"
             },
             
@@ -390,7 +389,7 @@
             "strokeAlpha": 1,
             "strokePressedAlpha": 1.0,
             "textStyle": "settingsInputField",
-            "selectedTextStyle": "settingsInputFieldSelected",
+            "selectedTextStyle": "settingsInputField",
             "pinColors":[9, 2, 3, 4],
             "cornerRadius": 3,
             "strokeWidth": 2
