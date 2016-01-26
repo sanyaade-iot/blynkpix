@@ -352,7 +352,7 @@
             "separatorColor": 8,
             "separatorAlpha": 0.5,
             "labelTextStyle": "settingsLabel",
-            "customizedPalette":[1, 6, 3, 4, 5],
+            "customizedPalette":[1, 6, 3, 4, 5]
         },
 
         "Button": {
