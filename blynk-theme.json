@@ -164,11 +164,6 @@
             "font": "primary",
             "uppercase": true
         },
-        "settingsFrequencyButtonLabel": {
-            "size": 24,
-            "color": 0,
-            "font": "primary"
-        },
         "settingsTerminalLabel": {
             "size": 12,
             "color": 0,
@@ -331,6 +326,10 @@
             "shouldStyleFont" : true,
             "backgroundColor": 9,
             "defaultColor": 0
+        },
+        
+        "LCD": {
+            "strokeColor": 10
         }
     },
     

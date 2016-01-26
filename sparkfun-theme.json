@@ -166,11 +166,6 @@
             "font": "primary",
             "uppercase": true
         },
-        "settingsFrequencyButtonLabel": {
-            "size": 24,
-            "color": 0,
-            "font": "primary"
-        },
         "settingsTerminalLabel": {
             "size": 12,
             "color": 2,
@@ -230,10 +225,15 @@
             "font": "primary",
             "color": 0
         },
-        "pickerItem": {
-            "size": 18,
-            "font": "primary",
-            "color": 6
+        "settingsBusyPin": {
+            "size": 12,
+            "color": 3,
+            "font": "primary"
+        },
+        "settingsPwmPin": {
+            "size": 12,
+            "color": 4,
+            "font": "primary"
         }
     },
     
@@ -328,6 +328,10 @@
             "shouldStyleFont" : false,
             "fontColor": 0,
             "defaultColor": 6
+        },
+        
+        "LCD": {
+            "strokeColor": 6
         }
     },
     
@@ -344,7 +348,6 @@
             "separatorAlpha": 0.5,
             "labelTextStyle": "settingsLabel",
             "customizedPalette":[1, 6, 3, 4, 5],
-            "pickerTextStyle": "pickerItem"
         },
 
         "Button": {
@@ -402,12 +405,15 @@
             "idleLabelTextStyle": "switchIdleLabel"
         },
         
-        "FrequencyButton": {
-            "strokeColor": 0,
-            "strokeAlpha": 0.65,
-            "selectedAlpha": 0.5,
-            "cornerRadius": 10,
-            "labelTextStyle": "settingsFrequencyButtonLabel"
+        "Picker": {
+            "headerTextColor": 1,
+            "backgroundColor": 6,
+            "pinTypeTextStyle": "settingsLarge",
+            "pinNumberTextStyle": "settingsLarge",
+            "busyTextStyle": "settingsBusyPin",
+            "pwmTextStyle": "settingsPwmPin",
+            "separatorColor": 0,
+            "separatorAlpha": 0.45
         },
         
         "LCD" : {
