@@ -225,6 +225,16 @@
             "size": 16,
             "font": "primary",
             "color": 4
+        },
+        "settingsBusyPin": {
+          "size": 12,
+          "color": 3,
+          "font": "primary"
+        },
+        "settingsPwmPin": {
+          "size": 12,
+          "color": 4,
+          "font": "primary"
         }
     },
     
