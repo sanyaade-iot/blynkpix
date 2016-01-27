@@ -246,13 +246,13 @@
         
         "Slider": {
             "handleStrokeColor": 0,
-            "handleStrokeAlpha": 0.6,
+            "handleStrokeAlpha": 1.0,
             "handleStrokeWidth": 1,
             "handleFillColor": 7,
-            "handleCornerRadius": 20,
+            "handleCornerRadius": 10,
             "handleShadowColor": 9,
             "handleShadowAlpha": 1.0,
-            "handleShadowBlur": 5,
+            "handleShadowBlur": 5.0,
             "pathColor": 0,
             "pathAlpha": 0.3,
             "pathCornerRadius": 1,
