@@ -315,6 +315,16 @@
         
         "ValueDisplay": {
             "valueTextStyle": "valueDisplayValueLabel"
+        },
+        
+        "Joystick": {
+            "backgroundColor": 10,
+            "backgroundAlpha": 0.3,
+            "backgroundStrokeColor": 10,
+            "backgroundStrokeAlpha": 0.6,
+            "backgroundStrokeWidth": 7,
+            "handleStrokeColor": 8,
+            "handleStrokeWidth": 7
         }
     },
     
