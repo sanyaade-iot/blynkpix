@@ -289,7 +289,8 @@
         },
         
         "LCD": {
-            "messageLabelTextStyle": "lcdMessageLabel"
+            "messageLabelTextStyle": "lcdMessageLabel",
+            "logoImage": "img_sparkfun_logo"
         },
         
         "zeRGBa":{
