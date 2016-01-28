@@ -318,13 +318,20 @@
         },
         
         "Joystick": {
-            "backgroundColor": 10,
-            "backgroundAlpha": 0.3,
-            "backgroundStrokeColor": 10,
-            "backgroundStrokeAlpha": 0.6,
+            "backgroundColor": 9,
+            "backgroundAlpha": 0.1,
+            "backgroundStrokeColor": 9,
+            "backgroundStrokeAlpha": 0.2,
             "backgroundStrokeWidth": 7,
             "handleStrokeColor": 8,
             "handleStrokeWidth": 7
+        },
+        "Graph": {
+            "timestampLabelTextStyle": "timestamp",
+            "gridLinesColor": 0,
+            "gridLinesAlpha": 0.65,
+            "gridBackgroundColor": 6,
+            "gridBackgroundAlpha": 1
         }
     },
     
