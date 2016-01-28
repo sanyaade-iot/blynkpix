@@ -34,7 +34,7 @@
             "size": 10,
             "color": 2,
             "font": "primary",
-            "alpha": 1.0
+            "alpha": 0.7
         },
         "header": {
             "size": 24,
@@ -253,7 +253,7 @@
             "handleFillColor": 0,
             "handleCornerRadius": 10,
             "handleShadowColor": 6,
-            "handleShadowAlpha": 0.8,
+            "handleShadowAlpha": 0.2,
             "handleShadowBlur": 5.0,
             "pathColor": 0,
             "pathAlpha": 0.3,
