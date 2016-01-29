@@ -82,8 +82,7 @@
         "settingsInputField": {
             "size": 22,
             "color": 2,
-            "font": "primary",
-            "uppercase": true
+            "font": "primary"
         },
         "settingsInput": {
             "size": 24,

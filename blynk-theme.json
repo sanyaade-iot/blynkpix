@@ -83,8 +83,7 @@
             "size": 22,
             "color": 0,
             "alpha": 0.9,
-            "font": "primary",
-            "uppercase": true
+            "font": "primary"
         },
         "settingsInput": {
             "size": 24,
