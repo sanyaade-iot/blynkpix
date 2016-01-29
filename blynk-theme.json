@@ -339,6 +339,22 @@
             "gridLinesAlpha": 0.65,
             "gridBackgroundColor": 6,
             "gridBackgroundAlpha": 1
+        },
+
+        "Bridge": {
+            "color": 0
+        },
+
+        "Twitter": {
+            "color": 0
+        },
+
+        "Mail": {
+            "color": 0
+        },
+
+        "Notification": {
+            "color": 0
         }
     },
     
