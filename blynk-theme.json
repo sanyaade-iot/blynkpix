@@ -361,6 +361,7 @@
             
             "selectedAlpha": 0.35,
             "strokeWidth": 2,
+            "cornerRadius": 4,
             
             "PrimaryButton": {
                 "strokeWidth": 0,

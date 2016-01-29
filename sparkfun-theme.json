@@ -363,6 +363,7 @@
             
             "selectedAlpha": 0.35,
             "strokeWidth": 0,
+            "cornerRadius": 4,
 
             "PrimaryButton": {
                 "backgroundColor": 1,
