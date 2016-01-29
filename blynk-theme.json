@@ -85,6 +85,13 @@
             "alpha": 0.9,
             "font": "primary"
         },
+        "settingsInputPinField": {
+            "size": 22,
+            "color": 0,
+            "alpha": 0.9,
+            "font": "primary",
+            "uppercase": true
+        },
         "settingsInput": {
             "size": 24,
             "color": 0,
@@ -417,8 +424,8 @@
             "strokeColor": 1,
             "strokeAlpha": 1,
             "strokePressedAlpha": 0.35,
-            "textStyle": "settingsInputField",
-            "selectedTextStyle": "settingsInputField",
+            "textStyle": "settingsInputPinField",
+            "selectedTextStyle": "settingsInputPinField",
             "pinColors":[1, 2, 3, 4],
             "cornerRadius": 0,
             "strokeWidth": 2
