@@ -340,8 +340,7 @@
             "gridLinesColor": 2,
             "gridLinesAlpha": 0.15,
             "gridBackgroundColor": 0,
-            "gridBackgroundAlpha": 1,
-            "xAxisLabelsVerticalOffset": 4
+            "gridBackgroundAlpha": 1
         },
         
         "Bridge": {

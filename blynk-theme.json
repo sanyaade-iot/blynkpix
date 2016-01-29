@@ -14,7 +14,8 @@
                "#27292D",
                "#B3B3B3",
                "#000000",
-               "#131319"
+               "#131319",
+               "#0a0a0d"
                ],
     
     "fonts": {
@@ -218,7 +219,7 @@
     "Dashboard": {
         
         "backgroundColor": 10,
-        "sharedBackgroundColor": 6,
+        "sharedBackgroundColor": 7,
         "messageBackgroundColor": 6,
         "messageTextStyle": "dashboardMessage"
     },
@@ -233,7 +234,7 @@
     "WidgetBaseStyle": {
         
         "borderStrokeWidth": 1,
-        "borderStrokeColor": 6,
+        "borderStrokeColor": 11,
         "backgroundColor": 7,
         "cornerRadius": 3,
         "nameLabelTextStyle": "widgetSmall",
@@ -337,9 +338,8 @@
             "timestampLabelTextStyle": "timestamp",
             "gridLinesColor": 0,
             "gridLinesAlpha": 0.65,
-            "gridBackgroundColor": 6,
-            "gridBackgroundAlpha": 1,
-            "xAxisLabelsVerticalOffset": 2
+            "gridBackgroundColor": 7,
+            "gridBackgroundAlpha": 1
         },
         
         "Bridge": {
