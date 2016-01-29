@@ -342,26 +342,26 @@
         },
         "Graph": {
             "timestampLabelTextStyle": "timestamp",
-            "gridLinesColor": 6,
-            "gridLinesAlpha": 0.05,
+            "gridLinesColor": 2,
+            "gridLinesAlpha": 0.15,
             "gridBackgroundColor": 0,
             "gridBackgroundAlpha": 1
         },
-
+        
         "Bridge": {
-            "color": 1
+            "color": 0
         },
-
+        
         "Twitter": {
-            "color": 1
+            "color": 0
         },
-
+        
         "Mail": {
-            "color": 1
+            "color": 0
         },
-
+        
         "Notification": {
-            "color": 1
+            "color": 0
         }
     },
     
