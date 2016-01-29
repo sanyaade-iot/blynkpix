@@ -349,19 +349,19 @@
         },
         
         "Bridge": {
-            "color": 0
+            "color": 1
         },
         
         "Twitter": {
-            "color": 0
+            "color": 1
         },
         
         "Mail": {
-            "color": 0
+            "color": 1
         },
         
         "Notification": {
-            "color": 0
+            "color": 1
         }
     },
     
