@@ -94,7 +94,7 @@
             "size": 24,
             "color": 0,
             "font": "primary",
-            "alpha": 0.65,
+            "alpha": 0.65
         },
         "settingsLarge": {
             "size": 22,
