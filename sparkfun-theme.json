@@ -208,14 +208,20 @@
         "intervalBorderLabel": {
             "size": 12,
             "font": "primary",
-            "color": 1,
+            "color": 9,
             "uppercase": true
+        },
+        "historyGraphMessage": {
+            "size": 12,
+            "font": "primary",
+            "color": 8
         }
     },
     
     "Dashboard": {
         
         "backgroundColor": 7,
+        "sharedBackgroundColor": 0,
         "messageBackgroundColor": 11,
         "messageTextStyle": "dashboardMessage"
     },
@@ -226,7 +232,7 @@
         "guideTextStyle": "projectSettingsGuide",
         "tokenTextStyle": "projectSettingsToken"
     },
-    
+
     "WidgetBaseStyle": {
         "borderStrokeWidth": 1,
         "borderStrokeColor": 7,
@@ -251,7 +257,7 @@
             "handleStrokeAlpha": 1.0,
             "handleStrokeWidth": 0,
             "handleFillColor": 0,
-            "handleCornerRadius": 10,
+            "handleCornerRadius": 50,
             "handleShadowColor": 6,
             "handleShadowAlpha": 0.2,
             "handleShadowBlur": 5.0,
@@ -285,7 +291,8 @@
             "graphLine3Color": 1,
             "graphLine4Color": 5,
             "gridBackgroundColor": 6,
-            "gridBackgroundAlpha": 0.05
+            "gridBackgroundAlpha": 0.05,
+            "messageTextStyle": "historyGraphMessage"
         },
         
         "LCD": {

@@ -2,7 +2,6 @@
     "name": "Blynk",
     "description": "Default theme",
     "version": 1,
-    "paletteSize": 6,
     
     "colors": [
                "#FFFFFF",
@@ -205,14 +204,21 @@
         "intervalBorderLabel": {
             "size": 12,
             "font": "primary",
-            "color": 1,
+            "color": 0,
+            "alpha": 0.4,
             "uppercase": true
+        },
+        "historyGraphMessage": {
+            "size": 12,
+            "font": "primary",
+            "color": 0
         }
     },
     
     "Dashboard": {
         
         "backgroundColor": 10,
+        "sharedBackgroundColor": 6,
         "messageBackgroundColor": 6,
         "messageTextStyle": "dashboardMessage"
     },
@@ -249,10 +255,10 @@
             "handleStrokeAlpha": 1.0,
             "handleStrokeWidth": 1,
             "handleFillColor": 7,
-            "handleCornerRadius": 10,
+            "handleCornerRadius": 50,
             "handleShadowColor": 9,
-            "handleShadowAlpha": 1.0,
-            "handleShadowBlur": 5.0,
+            "handleShadowAlpha": 0.0,
+            "handleShadowBlur": 0.0,
             "pathColor": 0,
             "pathAlpha": 0.3,
             "pathCornerRadius": 1,
@@ -276,7 +282,8 @@
             "graphLine3Color": 5,
             "graphLine4Color": 4,
             "gridBackgroundColor": 6,
-            "gridBackgroundAlpha": 1
+            "gridBackgroundAlpha": 1,
+            "messageTextStyle": "historyGraphMessage"
         },
         
         "Gauge": {
