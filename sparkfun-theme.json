@@ -221,6 +221,11 @@
             "font": "primary",
             "color": 8
         },
+        "usernameTwitterLabel": {
+            "size": 17,
+            "font": "primary",
+            "color": 1
+        },
         "connectedTwitterLabel": {
             "size": 17,
             "font": "primary",
@@ -474,7 +479,7 @@
         },
 
         "Twitter": {
-            "userNameTextStyle": "projectSettingsToken",
+            "userNameTextStyle": "usernameTwitterLabel",
             "connectedTextStyle": "connectedTwitterLabel"
         }
     }
