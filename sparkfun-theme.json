@@ -453,7 +453,7 @@
             "strokePressedAlpha": 1.0,
             "textStyle": "settingsInputPinField",
             "selectedTextStyle": "selectedSettingsInputPinField",
-            "pinColors":[9, 2, 3, 4],
+            "pinColors":[3, 4, 9, 2],
             "cornerRadius": 3,
             "strokeWidth": 2
         },
