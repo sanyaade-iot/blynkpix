@@ -279,14 +279,16 @@
             "pathColor": 0,
             "pathAlpha": 0.3,
             "pathCornerRadius": 1,
-            "progressCornerRadius": 4
+            "progressCornerRadius": 4,
+            "defaultColor": 1
         },
         
         "Gauge": {
             "valueLabelTextStyle": "widgetLarge",
             "minMaxLabelTextStyle": "widgetSmall",
             "pathBackgroundColor": 9,
-            "pathBackgroundAlpha": 0.3
+            "pathBackgroundAlpha": 0.3,
+            "defaultColor": 1
         },
         
         "HistoryGraph": {
@@ -307,18 +309,21 @@
             "graphLine4Color": 5,
             "gridBackgroundColor": 6,
             "gridBackgroundAlpha": 0.05,
-            "messageTextStyle": "historyGraphMessage"
+            "messageTextStyle": "historyGraphMessage",
+            "defaultColor": 1
         },
         
         "LCD": {
             "messageLabelTextStyle": "lcdMessageLabel",
-            "logoImage": "img_sparkfun_logo"
+            "logoImage": "img_sparkfun_logo",
+            "defaultColor": 1
         },
         
         "zeRGBa":{
             "handleStrokeColor": 0,
             "handleStrokeWidth": 2,
-            "pinValuesTextStyle" : "widgetPinLabel"
+            "pinValuesTextStyle" : "widgetPinLabel",
+            "defaultColor": 1
         },
         
         "Terminal":{
@@ -326,19 +331,22 @@
             "shouldStyleBackground" : true,
             "shouldStyleFont" : false,
             "fontColor": 0,
-            "defaultColor": 6
+            "defaultColor": 1
         },
         
         "LED": {
-            "strokeColor": 6
+            "strokeColor": 6,
+            "defaultColor": 1
         },
         
         "Timer": {
-            "timerTextStyle": "timerValueLabel"
+            "timerTextStyle": "timerValueLabel",
+            "defaultColor": 1
         },
         
         "ValueDisplay": {
-            "valueTextStyle": "valueDisplayValueLabel"
+            "valueTextStyle": "valueDisplayValueLabel",
+            "defaultColor": 1
         },
         
         "Joystick": {
@@ -348,14 +356,16 @@
             "backgroundStrokeAlpha": 0.2,
             "backgroundStrokeWidth": 7,
             "handleStrokeColor": 0,
-            "handleStrokeWidth": 7
+            "handleStrokeWidth": 7,
+            "defaultColor": 1
         },
         "Graph": {
             "timestampLabelTextStyle": "timestamp",
             "gridLinesColor": 2,
             "gridLinesAlpha": 0.15,
             "gridBackgroundColor": 0,
-            "gridBackgroundAlpha": 1
+            "gridBackgroundAlpha": 1,
+            "defaultColor": 1
         },
         
         "Bridge": {
