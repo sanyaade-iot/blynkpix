@@ -443,7 +443,7 @@
             "pinNumberTextStyle": "settingsLarge",
             "busyTextStyle": "settingsBusyPin",
             "pwmTextStyle": "settingsPwmPin",
-            "separatorColor": 0,
+            "separatorColor": 9,
             "separatorAlpha": 0.45
         },
         
