@@ -238,7 +238,9 @@
         "backgroundColor": 7,
         "sharedBackgroundColor": 0,
         "messageBackgroundColor": 11,
-        "messageTextStyle": "dashboardMessage"
+        "messageTextStyle": "dashboardMessage",
+        "cell": "img_project_bg_sf",
+        "highlightCell": "img_project_bg_highlight"
     },
     
     "ProjectSettings": {
