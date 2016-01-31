@@ -469,6 +469,10 @@
         
         "Timer": {
             "intervalBorderTextStyle": "intervalBorderLabel"
+        },
+
+        "Twitter": {
+            "userNameTextStyle": "projectSettingsToken"
         }
     }
 }
