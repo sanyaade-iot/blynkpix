@@ -178,7 +178,7 @@
         "projectSettingsToken": {
             "size": 17,
             "font": "primary",
-            "color": 3
+            "color": 1
         },
         "dashboardMessage": {
             "size": 16,
@@ -217,6 +217,11 @@
         },
         "historyGraphMessage": {
             "size": 12,
+            "font": "primary",
+            "color": 0
+        },
+        "connectedTwitterLabel": {
+            "size": 17,
             "font": "primary",
             "color": 0
         }
@@ -472,7 +477,8 @@
         },
 
         "Twitter": {
-            "userNameTextStyle": "projectSettingsToken"
+            "userNameTextStyle": "projectSettingsToken",
+            "connectedTextStyle": "connectedTwitterLabel"
         }
     }
 }
