@@ -262,6 +262,21 @@
             "size": 10,
             "font": "primary",
             "color": 0
+        },
+        "shareTitleLabel": {
+            "size": 19,
+            "font": "primary",
+            "color": 2
+        },
+        "shareSubtitleLabel": {
+            "size": 12,
+            "font": "primary",
+            "color": 1
+        },
+        "shareMessageLabel": {
+            "size": 12,
+            "font": "primary",
+            "color": 2
         }
     },
     
@@ -543,5 +558,11 @@
         "textBackgroundColor": 6,
         "titleTextStyle": "tutTitleLabel",
         "descriptionTextStyle": "tutTextLabel"
+    },
+
+    "Share": {
+        "titleTextStyle": "shareTitleLabel",
+        "subtitleTextStyle": "shareSubtitleLabel",
+        "messageTextStyle": "shareMessageLabel"
     }
 }
