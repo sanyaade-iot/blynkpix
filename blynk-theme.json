@@ -253,6 +253,16 @@
             "size": 16,
             "font": "secondary",
             "color": 1
+        },
+        "tutTitleLabel": {
+            "size": 15,
+            "font": "primary",
+            "color": 0
+        },
+        "tutTextLabel": {
+            "size": 10,
+            "font": "primary",
+            "color": 0
         }
     },
     
@@ -530,5 +540,13 @@
         "widgetGroupTextStyle": "widgetGroupLabel",
         "widgetNameTextStyle": "widgetNameLabel",
         "widgetInstalledTextStyle": "widgetInstalledLabel"
+    },
+
+    "Tutorial": {
+        "backgroundColor": 10,
+        "imageBackgroundColor": 0,
+        "textBackgroundColor": 1,
+        "titleTextStyle": "tutTitleLabel",
+        "descriptionTextStyle": "tutTextLabel"
     }
 }
