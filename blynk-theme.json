@@ -236,6 +236,23 @@
             "size": 17,
             "font": "primary",
             "color": 0
+        },
+        "widgetGroupLabel": {
+            "size": 12,
+            "font": "primary",
+            "color": 0,
+            "alpha": 0.3,
+            "uppercase": true
+        },
+        "widgetNameLabel": {
+            "size": 24,
+            "font": "primary",
+            "color": 0
+        },
+        "widgetInstalledLabel": {
+            "size": 16,
+            "font": "secondary",
+            "color": 1
         }
     },
     
@@ -503,5 +520,15 @@
             "userNameTextStyle": "usernameTwitterLabel",
             "connectedTextStyle": "connectedTwitterLabel"
         }
+    },
+
+    "WidgetBox": {
+        "backgroundColor": 6,
+        "separatorColor": 0,
+        "separatorAlpha": 0.3,
+
+        "widgetGroupTextStyle": "widgetGroupLabel",
+        "widgetNameTextStyle": "widgetNameLabel",
+        "widgetInstalledTextStyle": "widgetInstalledLabel"
     }
 }
