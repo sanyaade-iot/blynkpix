@@ -254,12 +254,12 @@
             "color": 3
         },
         "tutTitleLabel": {
-            "size": 15,
+            "size": 18,
             "font": "primary",
             "color": 0
         },
         "tutTextLabel": {
-            "size": 10,
+            "size": 14,
             "font": "primary",
             "color": 0
         },
@@ -269,7 +269,7 @@
             "color": 2
         },
         "shareSubtitleLabel": {
-            "size": 12,
+            "size": 16,
             "font": "primary",
             "color": 1
         },
@@ -309,7 +309,7 @@
         "highlightColor": 0,
         "highlightAlpha": 0.25,
         "defaultReadColor": 1,
-        "defaultWriteColor": 3,
+        "defaultWriteColor": 1,
 
         "Button": {
             "textStyle": "widgetButtonNormal",
@@ -561,6 +561,7 @@
     },
 
     "Share": {
+        "backgroundColor": 0,
         "titleTextStyle": "shareTitleLabel",
         "subtitleTextStyle": "shareSubtitleLabel",
         "messageTextStyle": "shareMessageLabel"
