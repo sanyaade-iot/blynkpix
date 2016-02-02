@@ -517,7 +517,9 @@
             "busyTextStyle": "settingsBusyPin",
             "pwmTextStyle": "settingsPwmPin",
             "separatorColor": 0,
-            "separatorAlpha": 0.45
+            "separatorAlpha": 0.45,
+            "shadowColor": 0,
+            "shadowAlpha": 0
         },
         
         "LCD" : {

@@ -317,7 +317,7 @@
         },
         
         "Slider": {
-            "handleStrokeColor": 6,
+            "handleStrokeColor": 0,
             "handleStrokeAlpha": 1.0,
             "handleStrokeWidth": 0,
             "handleFillColor": 0,
@@ -513,7 +513,9 @@
             "busyTextStyle": "settingsBusyPin",
             "pwmTextStyle": "settingsPwmPin",
             "separatorColor": 9,
-            "separatorAlpha": 0.45
+            "separatorAlpha": 0.45,
+            "shadowColor": 6,
+            "shadowAlpha": 0.8
         },
         
         "LCD" : {
