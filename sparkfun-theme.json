@@ -380,7 +380,7 @@
             "shouldStyleBackground" : true,
             "shouldStyleFont" : false,
             "fontColor": 0,
-            "defaultColor": 1
+            "defaultColor": 6
         },
         
         "LED": {
