@@ -244,7 +244,7 @@
             "color": 8
         },
         "widgetNameLabel": {
-            "size": 18,
+            "size": 24,
             "font": "primary",
             "color": 0
         },
@@ -318,8 +318,8 @@
         
         "Slider": {
             "handleStrokeColor": 0,
-            "handleStrokeAlpha": 1.0,
-            "handleStrokeWidth": 0,
+            "handleStrokeAlpha": 1,
+            "handleStrokeWidth": 1,
             "handleFillColor": 0,
             "handleCornerRadius": 50,
             "handleShadowColor": 6,
