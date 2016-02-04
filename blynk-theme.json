@@ -21,7 +21,7 @@
     "fonts": {
         "primary": "PFDinDisplayPro-Light",
         "secondary": "PFDinDisplayPro-Reg",
-        "terminal": "Courier New",
+        "terminal": "AndaleMono",
         "lcd": "EnhancedLEDBoard-7"
     },
     
@@ -100,11 +100,11 @@
             "font": "primary",
             "uppercase": true
         },
-        "settingsInput": {
-            "size": 24,
+        "settingsRangeField": {
+            "size": 22,
             "color": 0,
-            "font": "primary",
-            "alpha": 0.65
+            "alpha": 0.9,
+            "font": "primary"
         },
         "settingsLarge": {
             "size": 22,
@@ -260,7 +260,7 @@
             "color": 0
         },
         "tutTextLabel": {
-            "size": 14,
+            "size": 16,
             "font": "primary",
             "color": 0
         },
@@ -278,6 +278,16 @@
             "size": 12,
             "font": "primary",
             "color": 0
+        },
+        "settingsLCDLabel": {
+            "size": 22,
+            "color": 0,
+            "font": "primary"
+        },
+        "loggerRangeLabel": {
+            "size": 14,
+            "color": 0,
+            "font": "primary"
         }
     },
     
@@ -343,6 +353,7 @@
             "rangeSelectorPressedAlpha": 1,
             "rangeSelectorIdleColor": 0,
             "rangeSelectorIdleAlpha": 0.5,
+            "rangeSelectorTextStyle": "loggerRangeLabel",
             "gridLinesColor": 0,
             "gridLinesAlpha": 0.65,
             "graphLine1Color": 1,
@@ -501,6 +512,16 @@
             "strokeWidth": 2
         },
         
+        "InputRangeField": {
+            "strokeColor": 0,
+            "strokeAlpha": 0.4,
+            "strokeUnselectedAlpha": 0.35,
+            "textStyle": "settingsRangeField",
+            "hintAlpha": 0.4,
+            "cornerRadius": 0,
+            "strokeWidth": 2
+        },
+
         "Switch": {
             "strokeColor": 0,
             "circleColor": 0,
@@ -525,6 +546,7 @@
             "label1Color" :  1,
             "label2Color" :  2,
             "messageFieldHintTextStyle" : "settingsHint",
+            "labelsTextStyle" : "settingsLCDLabel",
             "fontLabelTextStyle" : "settingsLarge"
         },
         

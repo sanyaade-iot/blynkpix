@@ -18,40 +18,42 @@
                ],
     
     "fonts": {
-        "primary": "PFDinDisplayPro-Light",
-        "secondary": "PFDinDisplayPro-Reg",
-        "terminal": "Courier New",
-        "lcd": "EnhancedLEDBoard-7"
+        "primary": "Montserrat-Light",
+        "regular": "Montserrat-Regular",
+        "secondary": "Gauge-Heavy",
+        "terminal": "AndaleMono",
+        "lcd": "EnhancedLEDBoard-7",
+        "gauge": "Gauge-Regular"
     },
     
     "textStyles": {
         "widgetLarge": {
-            "size": 22,
+            "size": 24,
             "color": 1,
-            "font": "primary"
+            "font": "gauge"
         },
         "widgetSmall": {
-            "size": 10,
+            "size": 9,
             "color": 2,
-            "font": "primary",
+            "font": "gauge",
             "alpha": 0.7
         },
         "header": {
-            "size": 24,
+            "size": 18,
             "color": 0,
             "font": "primary"
         },
         "widgetButtonNormal": {
-            "size": 19,
+            "size": 15,
             "color": 0,
-            "font": "primary",
+            "font": "gauge",
             "alpha": 1
         },
         "timestamp": {
-            "size": 8,
+            "size": 7,
             "color": 6,
             "font": "primary",
-            "alpha": 1.0
+            "alpha": 1
         },
         "legend1": {
             "size": 10,
@@ -74,38 +76,38 @@
             "font": "primary"
         },
         "settingsLabel": {
-            "size": 12,
+            "size": 8,
             "color": 8,
-            "font": "primary",
+            "font": "gauge",
             "alpha": 1.0
         },
         "settingsInputField": {
-            "size": 22,
+            "size": 18,
             "color": 2,
-            "font": "primary"
+            "font": "regular"
         },
         "settingsInputPinField": {
-            "size": 22,
+            "size": 18,
             "color": 2,
-            "font": "primary",
+            "font": "gauge",
             "uppercase": true
         },
         "selectedSettingsInputPinField": {
-            "size": 22,
+            "size": 18,
             "color": 2,
             "alpha": 0.4,
-            "font": "primary",
+            "font": "gauge",
             "uppercase": true
         },
-        "settingsInput": {
-            "size": 24,
-            "color": 0,
-            "font": "primary",
-            "alpha": 0.65
+        "settingsRangeField": {
+            "size": 18,
+            "color": 6,
+            "font": "gauge",
+            "alpha": 1
         },
         "settingsLarge": {
-            "size": 22,
-            "color": 2,
+            "size": 15,
+            "color": 6,
             "font": "primary"
         },
         "settingsHint": {
@@ -119,39 +121,39 @@
             "font": "primary"
         },
         "settingsPrimaryButton": {
-            "size": 24,
+            "size": 15,
             "color": 0,
             "font": "primary",
             "uppercase": true
         },
         "settingsSecondaryButton1": {
-            "size": 24,
+            "size": 15,
             "color": 2,
             "font": "primary",
             "uppercase": true
         },
         "settingsSecondaryButton2": {
-            "size": 24,
+            "size": 15,
             "color": 2,
             "font": "primary",
             "uppercase": true
         },
         "settingsCriticalButton": {
-            "size": 24,
+            "size": 15,
             "color": 1,
             "font": "primary",
             "uppercase": true
         },
         "switchIdleLabel": {
-            "size": 19,
+            "size": 18,
             "color": 9,
-            "font": "primary",
+            "font": "gauge",
             "alpha": 0.8
         },
         "switchActiveLabel": {
-            "size": 19,
+            "size": 18,
             "color": 6,
-            "font": "primary",
+            "font": "gauge",
             "uppercase": true
         },
         "settingsTerminalLabel": {
@@ -174,35 +176,35 @@
             "font": "terminal"
         },
         "widgetPinLabel": {
-            "size": 10,
-            "font": "primary",
+            "size": 9,
+            "font": "gauge",
             "color": 8
         },
         "projectSettingsGuide": {
-            "size": 19,
+            "size": 15,
             "font": "primary",
             "color": 8
         },
         "projectSettingsToken": {
-            "size": 17,
-            "font": "primary",
+            "size": 13,
+            "font": "gauge",
             "color": 1,
             "uppercase": true
         },
         "dashboardMessage": {
-            "size": 16,
-            "font": "primary",
+            "size": 12,
+            "font": "regular",
             "color": 0
         },
         "settingsBusyPin": {
-            "size": 12,
+            "size": 10,
             "color": 3,
-            "font": "primary"
+            "font": "regular"
         },
         "settingsPwmPin": {
             "size": 12,
             "color": 4,
-            "font": "primary"
+            "font": "regular"
         },
         "pickerHeader": {
             "size": 14,
@@ -210,18 +212,17 @@
             "font": "primary"
         },
         "timerValueLabel": {
-            "size": 27,
-            "font": "primary"
+            "size": 24,
+            "font": "gauge"
         },
         "valueDisplayValueLabel": {
-            "size": 27,
-            "font": "primary"
+            "size": 24,
+            "font": "gauge"
         },
         "intervalBorderLabel": {
-            "size": 12,
+            "size": 15,
             "font": "primary",
-            "color": 9,
-            "uppercase": true
+            "color": 6
         },
         "historyGraphMessage": {
             "size": 12,
@@ -239,27 +240,27 @@
             "color": 2
         },
         "widgetGroupLabel": {
-            "size": 10,
-            "font": "primary",
+            "size": 8,
+            "font": "gauge",
             "color": 8
         },
         "widgetNameLabel": {
-            "size": 24,
+            "size": 18,
             "font": "primary",
             "color": 0
         },
         "widgetInstalledLabel": {
             "size": 16,
-            "font": "secondary",
+            "font": "primary",
             "color": 3
         },
         "tutTitleLabel": {
-            "size": 18,
+            "size": 15,
             "font": "primary",
             "color": 0
         },
         "tutTextLabel": {
-            "size": 14,
+            "size": 13,
             "font": "primary",
             "color": 0
         },
@@ -277,6 +278,26 @@
             "size": 12,
             "font": "primary",
             "color": 2
+        },
+        "settingsLCDLabel": {
+            "size": 18,
+            "color": 2,
+            "font": "primary"
+        },
+        "settingsPinType": {
+            "size": 18,
+            "color": 6,
+            "font": "primary"
+        },
+        "settingsPinNumber": {
+            "size": 24,
+            "color": 6,
+            "font": "regular"
+        },
+        "loggerRangeLabel": {
+            "size": 14,
+            "color": 0,
+            "font": "regular"
         }
     },
     
@@ -350,6 +371,7 @@
             "rangeSelectorPressedAlpha": 1,
             "rangeSelectorIdleColor": 9,
             "rangeSelectorIdleAlpha": 1,
+            "rangeSelectorTextStyle": "loggerRangeLabel",
             "gridLinesColor": 6,
             "gridLinesAlpha": 0.5,
             "graphLine1Color": 1,
@@ -498,6 +520,16 @@
             "strokeWidth": 2
         },
         
+        "InputRangeField": {
+            "strokeColor": 9,
+            "strokeAlpha": 1,
+            "strokeUnselectedAlpha": 1.0,
+            "textStyle": "settingsRangeField",
+            "hintAlpha": 0.5,
+            "cornerRadius": 3,
+            "strokeWidth": 2
+        },
+        
         "Switch": {
             "strokeColor": 6,
             "circleColor": 6,
@@ -508,8 +540,8 @@
         "Picker": {
             "headerTextStyle": "pickerHeader",
             "backgroundColor": 0,
-            "pinTypeTextStyle": "settingsLarge",
-            "pinNumberTextStyle": "settingsLarge",
+            "pinTypeTextStyle": "settingsPinType",
+            "pinNumberTextStyle": "settingsPinNumber",
             "busyTextStyle": "settingsBusyPin",
             "pwmTextStyle": "settingsPwmPin",
             "separatorColor": 9,
@@ -522,6 +554,7 @@
             "label1Color" :  3,
             "label2Color" :  4,
             "messageFieldHintTextStyle" : "settingsHint",
+            "labelsTextStyle" : "settingsLCDLabel",
             "fontLabelTextStyle" : "settingsLarge"
         },
         
