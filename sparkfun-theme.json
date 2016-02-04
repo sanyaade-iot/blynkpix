@@ -506,7 +506,8 @@
             "textStyle": "settingsInputField",
             "hintAlpha": 0.5,
             "cornerRadius": 3,
-            "strokeWidth": 2
+            "strokeWidth": 2,
+            "textBottomInset": 0
         },
         
         "InputPinField": {
@@ -517,7 +518,8 @@
             "selectedTextStyle": "selectedSettingsInputPinField",
             "pinColors":[3, 4, 9, 2],
             "cornerRadius": 3,
-            "strokeWidth": 2
+            "strokeWidth": 2,
+            "textBottomInset": 3
         },
         
         "InputRangeField": {
@@ -527,7 +529,8 @@
             "textStyle": "settingsRangeField",
             "hintAlpha": 0.5,
             "cornerRadius": 3,
-            "strokeWidth": 2
+            "strokeWidth": 2,
+            "textBottomInset": 3
         },
         
         "Switch": {
