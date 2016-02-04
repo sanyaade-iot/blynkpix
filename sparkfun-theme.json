@@ -198,12 +198,12 @@
         },
         "settingsBusyPin": {
             "size": 10,
-            "color": 3,
+            "color": 4,
             "font": "regular"
         },
         "settingsPwmPin": {
             "size": 12,
-            "color": 4,
+            "color": 5,
             "font": "regular"
         },
         "pickerHeader": {
