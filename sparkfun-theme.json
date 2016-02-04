@@ -265,12 +265,12 @@
             "color": 0
         },
         "shareTitleLabel": {
-            "size": 19,
-            "font": "primary",
-            "color": 2
+            "size": 16,
+            "font": "regular",
+            "color": 6
         },
         "shareSubtitleLabel": {
-            "size": 16,
+            "size": 13,
             "font": "primary",
             "color": 1
         },
