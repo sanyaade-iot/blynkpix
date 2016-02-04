@@ -123,25 +123,25 @@
         "settingsPrimaryButton": {
             "size": 15,
             "color": 0,
-            "font": "primary",
+            "font": "secondary",
             "uppercase": true
         },
         "settingsSecondaryButton1": {
             "size": 15,
             "color": 2,
-            "font": "primary",
+            "font": "secondary",
             "uppercase": true
         },
         "settingsSecondaryButton2": {
             "size": 15,
             "color": 2,
-            "font": "primary",
+            "font": "secondary",
             "uppercase": true
         },
         "settingsCriticalButton": {
             "size": 15,
             "color": 1,
-            "font": "primary",
+            "font": "secondary",
             "uppercase": true
         },
         "switchIdleLabel": {
