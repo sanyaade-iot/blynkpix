@@ -570,6 +570,10 @@
         "Terminal" : {
             "textLabelTextStyle" : "settingsTerminalLabel"
         },
+
+        "Joystick" : {
+            "codeLabelTextStyle" : "settingsTerminalLabel"
+        },
         
         "Timer": {
             "intervalBorderTextStyle": "intervalBorderLabel"
