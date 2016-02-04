@@ -550,7 +550,8 @@
             "label2Color" :  2,
             "messageFieldHintTextStyle" : "settingsHint",
             "labelsTextStyle" : "settingsLCDLabel",
-            "fontLabelTextStyle" : "settingsLarge"
+            "fontLabelTextStyle" : "settingsLarge",
+            "codeLabelTextStyle" : "settingsTerminalLabel"
         },
         
         "zeRGBa" : {
