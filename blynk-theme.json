@@ -301,7 +301,11 @@
         "highlightCell": "bg_pins_highlight",
         "widgetDragShadowColor": 9,
         "widgetDragShadowAlpha": 0.5,
-        "widgetDragShadowRadius": 10
+        "widgetDragShadowRadius": 10,
+        "loaderIndicatorColor": 1,
+        "loaderIndicatorAlpha": 1,
+        "loaderBackgroundColor": 9,
+        "loaderBackgroundAlpha": 0.6
     },
     
     "ProjectSettings": {

@@ -312,7 +312,11 @@
         "highlightCell": "img_project_bg_highlight",
         "widgetDragShadowColor": 2,
         "widgetDragShadowAlpha": 0.5,
-        "widgetDragShadowRadius": 10
+        "widgetDragShadowRadius": 10,
+        "loaderIndicatorColor": 1,
+        "loaderIndicatorAlpha": 1,
+        "loaderBackgroundColor": 2,
+        "loaderBackgroundAlpha": 0.3
     },
     
     "ProjectSettings": {
