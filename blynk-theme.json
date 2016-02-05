@@ -298,7 +298,10 @@
         "messageBackgroundColor": 6,
         "messageTextStyle": "dashboardMessage",
         "cell": "bg_pins_default",
-        "highlightCell": "bg_pins_highlight"
+        "highlightCell": "bg_pins_highlight",
+        "widgetDragShadowColor": 9,
+        "widgetDragShadowAlpha": 0.5,
+        "widgetDragShadowRadius": 10
     },
     
     "ProjectSettings": {

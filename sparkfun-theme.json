@@ -309,7 +309,10 @@
         "messageBackgroundColor": 11,
         "messageTextStyle": "dashboardMessage",
         "cell": "img_project_bg_sf",
-        "highlightCell": "img_project_bg_highlight"
+        "highlightCell": "img_project_bg_highlight",
+        "widgetDragShadowColor": 2,
+        "widgetDragShadowAlpha": 0.5,
+        "widgetDragShadowRadius": 10
     },
     
     "ProjectSettings": {
