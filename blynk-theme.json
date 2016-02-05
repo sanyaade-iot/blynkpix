@@ -551,7 +551,6 @@
         "LCD" : {
             "label1Color" :  1,
             "label2Color" :  2,
-            "messageFieldHintTextStyle" : "settingsHint",
             "labelsTextStyle" : "settingsLCDLabel",
             "fontLabelTextStyle" : "settingsLarge",
             "codeLabelTextStyle" : "settingsTerminalLabel"
