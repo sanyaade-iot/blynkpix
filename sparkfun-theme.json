@@ -404,8 +404,8 @@
         "Terminal":{
             "inputLineTextStyle" : "terminalInputLine",
             "shouldStyleBackground" : true,
-            "shouldStyleFont" : false,
-            "fontColor": 0,
+            "lightColor": 0,
+            "darkColor": 2,
             "defaultColor": 6
         },
         
@@ -572,7 +572,8 @@
         },
         
         "Terminal" : {
-            "textLabelTextStyle" : "settingsTerminalLabel"
+            "textLabelTextStyle" : "settingsTerminalLabel",
+            "fontLabelTextStyle" : "settingsLarge"
         },
 
         "Joystick" : {
