@@ -41,7 +41,8 @@
         "header": {
             "size": 18,
             "color": 0,
-            "font": "primary"
+            "font": "primary",
+            "bottomInset": 3
         },
         "widgetButtonNormal": {
             "size": 15,
