@@ -572,7 +572,8 @@
         "zeRGBa" : {
             "rangeValues1Color" :  1,
             "rangeValues2Color" :  3,
-            "rangeValues3Color" :  4
+            "rangeValues3Color" :  4,
+            "codeLabelTextStyle" : "settingsTerminalLabel"
         },
         
         "Terminal" : {
