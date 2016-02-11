@@ -299,6 +299,11 @@
             "size": 14,
             "color": 0,
             "font": "regular"
+        },
+        "bleHintLabel": {
+            "size": 16,
+            "color": 2,
+            "font": "primary"
         }
     },
     
@@ -323,7 +328,8 @@
         
         "backgroundColor": 0,
         "guideTextStyle": "projectSettingsGuide",
-        "tokenTextStyle": "projectSettingsToken"
+        "tokenTextStyle": "projectSettingsToken",
+        "bleHintLabelTextStyle": "bleHintLabel"
     },
 
     "WidgetBaseStyle": {
@@ -461,6 +467,13 @@
         
         "Notification": {
             "color": 6
+        },
+        
+        "BLE": {
+            "enabledColor": 1,
+            "enabledAlpha": 1,
+            "disabledColor": 6,
+            "disabledAlpha": 0.5
         }
     },
     
