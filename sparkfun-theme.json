@@ -614,7 +614,9 @@
 
         "widgetGroupTextStyle": "widgetGroupLabel",
         "widgetNameTextStyle": "widgetNameLabel",
-        "widgetInstalledTextStyle": "widgetInstalledLabel"
+        "widgetInstalledTextStyle": "widgetInstalledLabel",
+
+        "iconColor": 6
     },
 
     "Tutorial": {
