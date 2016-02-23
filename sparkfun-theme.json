@@ -632,7 +632,7 @@
         "widgetGroupTextStyle": "widgetGroupLabel",
         "widgetNameTextStyle": "widgetNameLabel",
         "widgetInstalledTextStyle": "widgetInstalledLabel",
-        "iconColor": 2,
+        "iconColor": 2
     },
 
     "Tutorial": {
