@@ -293,6 +293,16 @@
             "size": 18,
             "color": 0,
             "font": "primary"
+        },
+        "errorBLELabel": {
+            "size": 18,
+            "color": 5,
+            "font": "primary"
+        },
+        "statusBLELabel": {
+            "size": 21,
+            "color": 0,
+            "font": "primary"
         }
     },
     
@@ -596,6 +606,12 @@
         "Twitter": {
             "userNameTextStyle": "usernameTwitterLabel",
             "connectedTextStyle": "connectedTwitterLabel"
+        },
+
+        "BLE": {
+            "errorLabelTextStyle": "errorBLELabel",
+            "statusLabelTextStyle": "statusBLELabel",
+            "deviceNameColor": 1
         }
     },
 
@@ -607,12 +623,11 @@
         "widgetGroupTextStyle": "widgetGroupLabel",
         "widgetNameTextStyle": "widgetNameLabel",
         "widgetInstalledTextStyle": "widgetInstalledLabel",
-
         "iconColor": 1
     },
 
     "Tutorial": {
-        "backgroundColor": 10,
+        "backgroundColor": 6,
         "imageBackgroundColor": 0,
         "textBackgroundColor": 1,
         "titleTextStyle": "tutTitleLabel",
@@ -620,7 +635,7 @@
     },
 
     "Share": {
-        "backgroundColor": 10,
+        "backgroundColor": 6,
         "titleTextStyle": "shareTitleLabel",
         "subtitleTextStyle": "shareSubtitleLabel",
         "messageTextStyle": "shareMessageLabel"
