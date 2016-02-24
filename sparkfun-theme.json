@@ -485,6 +485,12 @@
             "enabledAlpha": 1,
             "disabledColor": 6,
             "disabledAlpha": 0.5
+        },
+
+        "RTC": {
+            "strokeColor": 6,
+            "defaultColor": 1,
+            "color": 6
         }
     },
     
