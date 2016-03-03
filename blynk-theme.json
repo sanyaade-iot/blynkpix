@@ -1,10 +1,7 @@
 {
     "name": "Blynk",
-    
     "description": "Default theme",
-    
     "version": 1,
-    
     "colors": [
                "#FFFFFF",
                "#23C48E",

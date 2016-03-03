@@ -22,7 +22,7 @@
         "regular": "Montserrat-Regular",
         "secondary": "Gauge-Heavy",
         "terminal": "AndaleMono",
-        "lcd": "EnhancedLEDBoard-7",
+        "lcd": "Erbos-Draco-1st-Open-NBP"
         "gauge": "Gauge-Regular"
     },
     
@@ -169,7 +169,7 @@
             "uppercase": true
         },
         "lcdMessageLabel": {
-            "size": 17,
+            "size": 21,
             "font": "lcd"
         },
         "terminalInputLine": {
