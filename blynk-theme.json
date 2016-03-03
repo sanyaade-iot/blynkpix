@@ -22,7 +22,7 @@
         "primary": "PFDinDisplayPro-Light",
         "secondary": "PFDinDisplayPro-Reg",
         "terminal": "AndaleMono",
-        "lcd": "EnhancedLEDBoard-7"
+        "lcd": "Erbos-Draco-1st-Open-NBP"
     },
     
     "textStyles": {
@@ -165,7 +165,7 @@
             "uppercase": true
         },
         "lcdMessageLabel": {
-            "size": 17,
+            "size": 21,
             "font": "lcd"
         },
         "terminalInputLine": {
