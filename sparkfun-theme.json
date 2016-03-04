@@ -352,6 +352,7 @@
         "pinLabelTextStyle": "widgetPinLabel",
         "shadowColor": 7,
         "shadowAlpha": 0.4,
+        "highlightedShadowColor": 0,
         "highlightColor": 0,
         "highlightAlpha": 0.25,
         "defaultReadColor": 1,
