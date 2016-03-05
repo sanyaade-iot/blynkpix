@@ -250,7 +250,7 @@
         },
         "widgetInstalledLabel": {
             "size": 16,
-            "font": "secondary",
+            "font": "primary",
             "color": 1
         },
         "tutTitleLabel": {
