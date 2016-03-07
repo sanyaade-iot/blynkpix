@@ -414,7 +414,7 @@
             "inputLineTextStyle" : "terminalInputLine",
             "lightColor": 0,
             "darkColor": 9,
-            "defaultColor": 1
+            "defaultColor": 9
         },
         
         "LED": {
