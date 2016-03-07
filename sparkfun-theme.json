@@ -2,6 +2,7 @@
     "name": "SparkFun",
     "description": "SparkFun boards theme",
     "version": 1,
+    
     "colors": [
                "#FFFFFF",
                "#E6324D",
@@ -425,7 +426,6 @@
         
         "Terminal":{
             "inputLineTextStyle" : "terminalInputLine",
-            "shouldStyleBackground" : true,
             "lightColor": 0,
             "darkColor": 2,
             "defaultColor": 6

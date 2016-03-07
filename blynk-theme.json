@@ -2,6 +2,7 @@
     "name": "Blynk",
     "description": "Default theme",
     "version": 1,
+    
     "colors": [
                "#FFFFFF",
                "#23C48E",
@@ -411,8 +412,7 @@
 
         "Terminal":{
             "inputLineTextStyle" : "terminalInputLine",
-            "shouldStyleBackground" : false,
-            "lightColor": 6,
+            "lightColor": 0,
             "darkColor": 9,
             "defaultColor": 1
         },
