@@ -303,11 +303,36 @@
             "size": 21,
             "color": 0,
             "font": "primary"
+        },
+        "comissioningTitleLabel": {
+            "size": 20,
+            "font": "regular",
+            "color": 0
+        },
+        "comissioningSubtitleLabel": {
+            "size": 15,
+            "font": "regular",
+            "color": 0
+        },
+        "comissioningCancelDefault": {
+            "size": 15,
+            "font": "regular",
+            "color": 7
+        },
+        "comissioningCancelWait": {
+            "size": 15,
+            "font": "regular",
+            "color": 1
+        },
+        "comissioningText": {
+            "size": 12,
+            "font": "regular",
+            "color": 0
         }
     },
-    
+
     "Dashboard": {
-        
+
         "backgroundColor": 10,
         "sharedBackgroundColor": 7,
         "messageBackgroundColor": 6,
@@ -320,19 +345,20 @@
         "loaderIndicatorColor": 1,
         "loaderIndicatorAlpha": 1,
         "loaderBackgroundColor": 9,
-        "loaderBackgroundAlpha": 0.6
+        "loaderBackgroundAlpha": 0.6,
+        "linkColor": 1
     },
-    
+
     "ProjectSettings": {
-        
+
         "backgroundColor": 6,
         "guideTextStyle": "projectSettingsGuide",
         "tokenTextStyle": "projectSettingsToken",
         "bleHintLabelTextStyle": "bleHintLabel"
     },
-    
+
     "WidgetBaseStyle": {
-        
+
         "borderStrokeWidth": 1,
         "borderStrokeColor": 11,
         "backgroundColor": 7,
@@ -346,12 +372,12 @@
         "highlightAlpha": 0.1,
         "defaultReadColor": 1,
         "defaultWriteColor": 1,
-        
+
         "Button": {
             "textStyle": "widgetButtonNormal",
             "defaultColor": 1
         },
-        
+
         "Slider": {
             "handleStrokeAlpha": 1,
             "handleStrokeWidth": 1,
@@ -366,7 +392,7 @@
             "progressCornerRadius": 4,
             "defaultColor": 1
         },
-        
+
         "HistoryGraph": {
             "legend1LabelTextStyle": "legend1",
             "legend2LabelTextStyle": "legend2",
@@ -389,7 +415,7 @@
             "messageTextStyle": "historyGraphMessage",
             "defaultColor": 1
         },
-        
+
         "Gauge": {
             "valueLabelTextStyle": "widgetLarge",
             "minMaxLabelTextStyle": "widgetSmall",
@@ -397,7 +423,7 @@
             "pathBackgroundAlpha": 0.3,
             "defaultColor": 1
         },
-        
+
         "LCD": {
             "messageLabelTextStyle": "lcdMessageLabel",
             "defaultColor": 1
@@ -416,7 +442,7 @@
             "darkColor": 9,
             "defaultColor": 9
         },
-        
+
         "LED": {
             "strokeColor": 10,
             "defaultColor": 1
@@ -426,12 +452,12 @@
             "timerTextStyle": "timerValueLabel",
             "defaultColor": 1
         },
-        
+
         "ValueDisplay": {
             "valueTextStyle": "valueDisplayValueLabel",
             "defaultColor": 1
         },
-        
+
         "Joystick": {
             "backgroundColor": 9,
             "backgroundAlpha": 0.1,
@@ -450,23 +476,23 @@
             "gridBackgroundAlpha": 1,
             "defaultColor": 1
         },
-        
+
         "Bridge": {
             "color": 1
         },
-        
+
         "Twitter": {
             "color": 1
         },
-        
+
         "Mail": {
             "color": 1
         },
-        
+
         "Notification": {
             "color": 1
         },
-        
+
         "BLE": {
             "enabledColor": 3,
             "enabledAlpha": 1,
@@ -480,12 +506,12 @@
             "color": 1
         }
     },
-    
+
     "Header": {
         "backgroundColor":1,
         "textStyle": "header"
     },
-    
+
     "WidgetSettings": {
         "Body": {
             "backgroundColor": 6,
@@ -495,13 +521,13 @@
             "labelTextStyle": "settingsLabel",
             "customizedPalette":[1, 2, 3, 4, 5, 0]
         },
-        
+
         "Button": {
-            
+
             "selectedAlpha": 0.35,
             "strokeWidth": 2,
             "cornerRadius": 4,
-            
+
             "PrimaryButton": {
                 "strokeWidth": 0,
                 "backgroundColor": 1,
@@ -513,20 +539,20 @@
                 "backgroundColor": 6,
                 "labelTextStyle": "settingsSecondaryButton1"
             },
-            
+
             "SecondaryButton2": {
                 "strokeColor": 3,
                 "backgroundColor": 6,
                 "labelTextStyle": "settingsSecondaryButton2"
             },
-            
+
             "CriticalButton": {
                 "strokeColor": 5,
                 "backgroundColor": 6,
                 "labelTextStyle": "settingsCriticalButton"
             }
         },
-        
+
         "InputField": {
             "strokeColor": 0,
             "strokeAlpha": 0.4,
@@ -537,7 +563,7 @@
             "strokeWidth": 2,
             "textBottomInset": 3
         },
-        
+
         "InputPinField": {
             "strokeColor": 1,
             "strokeAlpha": 1,
@@ -549,7 +575,7 @@
             "strokeWidth": 2,
             "textBottomInset": 3
         },
-        
+
         "InputRangeField": {
             "strokeColor": 0,
             "strokeAlpha": 0.4,
@@ -580,7 +606,7 @@
             "shadowColor": 0,
             "shadowAlpha": 0
         },
-        
+
         "LCD" : {
             "label1Color" :  1,
             "label2Color" :  2,
@@ -588,7 +614,7 @@
             "fontLabelTextStyle" : "settingsLarge",
             "codeLabelTextStyle" : "settingsTerminalLabel"
         },
-        
+
         "zeRGBa" : {
             "rangeValues1Color" :  5,
             "rangeValues2Color" :  1,
@@ -604,7 +630,7 @@
         "Joystick" : {
             "codeLabelTextStyle" : "settingsTerminalLabel"
         },
-        
+
         "Timer": {
             "intervalBorderTextStyle": "intervalBorderLabel"
         },
@@ -645,5 +671,13 @@
         "titleTextStyle": "shareTitleLabel",
         "subtitleTextStyle": "shareSubtitleLabel",
         "messageTextStyle": "shareMessageLabel"
+    },
+
+    "Comissioning": {
+        "titleTextStyle": "comissioningTitleLabel",
+        "subtitleTextStyle": "comissioningSubtitleLabel",
+        "cancelDefaultTextStyle": "comissioningCancelDefault",
+        "cancelWaitTextStyle": "comissioningCancelWait",
+        "messageTextStyle": "comissioningText"
     }
 }

@@ -315,11 +315,36 @@
             "size": 18,
             "color": 2,
             "font": "primary"
+        },
+        "comissioningTitleLabel": {
+            "size": 20,
+            "font": "regular",
+            "color": 6
+        },
+        "comissioningSubtitleLabel": {
+            "size": 15,
+            "font": "regular",
+            "color": 6
+        },
+        "comissioningCancelDefault": {
+            "size": 15,
+            "font": "regular",
+            "color": 7
+        },
+        "comissioningCancelWait": {
+            "size": 15,
+            "font": "regular",
+            "color": 1
+        },
+        "comissioningText": {
+            "size": 12,
+            "font": "regular",
+            "color": 2
         }
     },
-    
+
     "Dashboard": {
-        
+
         "backgroundColor": 7,
         "sharedBackgroundColor": 0,
         "messageBackgroundColor": 11,
@@ -332,11 +357,12 @@
         "loaderIndicatorColor": 1,
         "loaderIndicatorAlpha": 1,
         "loaderBackgroundColor": 2,
-        "loaderBackgroundAlpha": 0.3
+        "loaderBackgroundAlpha": 0.3,
+        "linkColor": 1
     },
-    
+
     "ProjectSettings": {
-        
+
         "backgroundColor": 0,
         "guideTextStyle": "projectSettingsGuide",
         "tokenTextStyle": "projectSettingsToken",
@@ -344,7 +370,7 @@
     },
 
     "WidgetBaseStyle": {
-        
+
         "borderStrokeWidth": 1,
         "borderStrokeColor": 7,
         "backgroundColor": 0,
@@ -363,7 +389,7 @@
             "textStyle": "widgetButtonNormal",
             "defaultColor": 1
         },
-        
+
         "Slider": {
             "handleStrokeColor": 0,
             "handleStrokeAlpha": 1,
@@ -379,7 +405,7 @@
             "progressCornerRadius": 4,
             "defaultColor": 1
         },
-        
+
         "Gauge": {
             "valueLabelTextStyle": "widgetLarge",
             "minMaxLabelTextStyle": "widgetSmall",
@@ -387,7 +413,7 @@
             "pathBackgroundAlpha": 0.3,
             "defaultColor": 1
         },
-        
+
         "HistoryGraph": {
             "legend1LabelTextStyle": "legend1",
             "legend2LabelTextStyle": "legend2",
@@ -410,42 +436,42 @@
             "messageTextStyle": "historyGraphMessage",
             "defaultColor": 1
         },
-        
+
         "LCD": {
             "messageLabelTextStyle": "lcdMessageLabel",
             "logoImage": "img_sparkfun_logo",
             "defaultColor": 1
         },
-        
+
         "zeRGBa":{
             "handleStrokeColor": 0,
             "handleStrokeWidth": 2,
             "pinValuesTextStyle" : "widgetPinLabel",
             "defaultColor": 1
         },
-        
+
         "Terminal":{
             "inputLineTextStyle" : "terminalInputLine",
             "lightColor": 0,
             "darkColor": 2,
             "defaultColor": 6
         },
-        
+
         "LED": {
             "strokeColor": 6,
             "defaultColor": 1
         },
-        
+
         "Timer": {
             "timerTextStyle": "timerValueLabel",
             "defaultColor": 1
         },
-        
+
         "ValueDisplay": {
             "valueTextStyle": "valueDisplayValueLabel",
             "defaultColor": 1
         },
-        
+
         "Joystick": {
             "backgroundColor": 2,
             "backgroundAlpha": 0.1,
@@ -464,23 +490,23 @@
             "gridBackgroundAlpha": 1,
             "defaultColor": 1
         },
-        
+
         "Bridge": {
             "color": 6
         },
-        
+
         "Twitter": {
             "color": 6
         },
-        
+
         "Mail": {
             "color": 6
         },
-        
+
         "Notification": {
             "color": 6
         },
-        
+
         "BLE": {
             "enabledColor": 1,
             "enabledAlpha": 1,
@@ -494,12 +520,12 @@
             "color": 6
         }
     },
-    
+
     "Header": {
         "backgroundColor":1,
         "textStyle": "header"
     },
-    
+
     "WidgetSettings": {
         "Body": {
             "backgroundColor": 0,
@@ -511,7 +537,7 @@
         },
 
         "Button": {
-            
+
             "selectedAlpha": 0.35,
             "strokeWidth": 0,
             "cornerRadius": 4,
@@ -520,24 +546,24 @@
                 "backgroundColor": 1,
                 "labelTextStyle": "settingsPrimaryButton"
             },
-            
+
             "SecondaryButton1": {
                 "backgroundColor": 10,
                 "labelTextStyle": "settingsSecondaryButton1"
             },
-            
+
             "SecondaryButton2": {
                 "backgroundColor": 7,
                 "labelTextStyle": "settingsSecondaryButton2"
             },
-            
+
             "CriticalButton": {
                 "backgroundAlpha": 0.2,
                 "backgroundColor": 1,
                 "labelTextStyle": "settingsCriticalButton"
             }
         },
-        
+
         "InputField": {
             "strokeColor": 9,
             "strokeAlpha": 1,
@@ -548,7 +574,7 @@
             "strokeWidth": 2,
             "textBottomInset": 0
         },
-        
+
         "InputPinField": {
             "strokeColor": 2,
             "strokeAlpha": 1,
@@ -560,7 +586,7 @@
             "strokeWidth": 2,
             "textBottomInset": 3
         },
-        
+
         "InputRangeField": {
             "strokeColor": 9,
             "strokeAlpha": 1,
@@ -571,14 +597,14 @@
             "strokeWidth": 2,
             "textBottomInset": 3
         },
-        
+
         "Switch": {
             "strokeColor": 6,
             "circleColor": 6,
             "activeLabelTextStyle": "switchActiveLabel",
             "idleLabelTextStyle": "switchIdleLabel"
         },
-        
+
         "Picker": {
             "headerTextStyle": "pickerHeader",
             "backgroundColor": 0,
@@ -591,7 +617,7 @@
             "shadowColor": 6,
             "shadowAlpha": 0.8
         },
-        
+
         "LCD" : {
             "label1Color" :  3,
             "label2Color" :  4,
@@ -599,14 +625,14 @@
             "fontLabelTextStyle" : "settingsLarge",
             "codeLabelTextStyle" : "settingsTerminalLabel"
         },
-        
+
         "zeRGBa" : {
             "rangeValues1Color" :  1,
             "rangeValues2Color" :  3,
             "rangeValues3Color" :  4,
             "codeLabelTextStyle" : "settingsTerminalLabel"
         },
-        
+
         "Terminal" : {
             "textLabelTextStyle" : "settingsTerminalLabel",
             "fontLabelTextStyle" : "settingsLarge"
@@ -615,7 +641,7 @@
         "Joystick" : {
             "codeLabelTextStyle" : "settingsTerminalLabel"
         },
-        
+
         "Timer": {
             "intervalBorderTextStyle": "intervalBorderLabel"
         },
@@ -624,7 +650,7 @@
             "userNameTextStyle": "usernameTwitterLabel",
             "connectedTextStyle": "connectedTwitterLabel"
         },
-        
+
         "BLE": {
             "errorLabelTextStyle": "errorBLELabel",
             "statusLabelTextStyle": "statusBLELabel",
@@ -655,5 +681,13 @@
         "titleTextStyle": "shareTitleLabel",
         "subtitleTextStyle": "shareSubtitleLabel",
         "messageTextStyle": "shareMessageLabel"
+    },
+
+    "Comissioning": {
+        "titleTextStyle": "comissioningTitleLabel",
+        "subtitleTextStyle": "comissioningSubtitleLabel",
+        "cancelDefaultTextStyle": "comissioningCancelDefault",
+        "cancelWaitTextStyle": "comissioningCancelWait",
+        "messageTextStyle": "comissioningText"
     }
 }
