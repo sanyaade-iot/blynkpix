@@ -328,6 +328,19 @@
             "size": 12,
             "font": "regular",
             "color": 0
+        },
+        "energyStatusLabel": {
+            "size": 18,
+            "font": "primary",
+            "color": 0,
+            "bottomInset": 2
+            
+        },
+        "widgetEnergyCostLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 1,
+            "bottomInset": 2
         }
     },
 
@@ -655,7 +668,11 @@
         "widgetGroupTextStyle": "widgetGroupLabel",
         "widgetNameTextStyle": "widgetNameLabel",
         "widgetInstalledTextStyle": "widgetInstalledLabel",
-        "iconColor": 1
+        "iconColor": 1,
+        
+        "energyStatusTextStyle": "energyStatusLabel",
+        "widgetEnergyCostTextStyle": "widgetEnergyCostLabel",
+        "widgetEnergyIconColor": 1
     },
 
     "Tutorial": {
