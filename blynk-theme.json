@@ -333,14 +333,14 @@
             "size": 18,
             "font": "primary",
             "color": 0,
-            "bottomInset": 2
+            "bottomInset": 0
             
         },
         "widgetEnergyCostLabel": {
             "size": 16,
             "font": "primary",
             "color": 1,
-            "bottomInset": 2
+            "bottomInset": 0
         }
     },
 
