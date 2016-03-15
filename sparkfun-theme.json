@@ -343,15 +343,18 @@
         },
         "energyStatusLabel": {
             "size": 18,
-            "font": "primary",
-            "color": 0,
-            "bottomInset": 0
+            "font": "gauge",
+            "color": 0
         },
         "widgetEnergyCostLabel": {
             "size": 14,
-            "font": "primary",
-            "color": 1,
-            "bottomInset": 0
+            "font": "gauge",
+            "color": 1
+        },
+        "addEnergyButtonLabel": {
+            "size": 16,
+            "font": "secondary",
+            "color": 2
         }
     },
 
@@ -680,6 +683,7 @@
         "iconColor": 2,
         
         "energyStatusTextStyle": "energyStatusLabel",
+        "addEnergyTextStyle": "addEnergyButtonLabel",
         "widgetEnergyCostTextStyle": "widgetEnergyCostLabel",
         "widgetEnergyIconColor": 1
     },

@@ -332,15 +332,17 @@
         "energyStatusLabel": {
             "size": 18,
             "font": "primary",
-            "color": 0,
-            "bottomInset": 0
-            
+            "color": 0
         },
         "widgetEnergyCostLabel": {
             "size": 16,
             "font": "primary",
-            "color": 1,
-            "bottomInset": 0
+            "color": 1
+        },
+        "addEnergyButtonLabel": {
+            "size": 18,
+            "font": "primary",
+            "color": 9
         }
     },
 
@@ -671,6 +673,7 @@
         "iconColor": 1,
         
         "energyStatusTextStyle": "energyStatusLabel",
+        "addEnergyTextStyle": "addEnergyButtonLabel",
         "widgetEnergyCostTextStyle": "widgetEnergyCostLabel",
         "widgetEnergyIconColor": 1
     },
