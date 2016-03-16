@@ -246,7 +246,8 @@
         "widgetGroupLabel": {
             "size": 8,
             "font": "gauge",
-            "color": 8
+            "color": 8,
+            "uppercase": true
         },
         "widgetNameLabel": {
             "size": 18,
