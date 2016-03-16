@@ -15,7 +15,9 @@
                "#7D918B",
                "#9EA3A6",
                "#E3DCCC",
-               "#A4B2AE"
+               "#A4B2AE",
+               "#F2AF59",
+               "#E6321E"
                ],
     
     "fonts": {
@@ -685,7 +687,10 @@
         "energyStatusTextStyle": "energyStatusLabel",
         "addEnergyTextStyle": "addEnergyButtonLabel",
         "widgetEnergyCostTextStyle": "widgetEnergyCostLabel",
-        "widgetEnergyIconColor": 1
+        "widgetEnergyIconColor": 1,
+        "widgetMidEnergyIconColor": 12,
+        "widgetLowEnergyIconColor": 13,
+        "addEnergyBackgroundColor": 10
     },
 
     "Tutorial": {
