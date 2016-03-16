@@ -343,6 +343,11 @@
             "size": 18,
             "font": "primary",
             "color": 9
+        },
+        "energyRecycleLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 0
         }
     },
 
@@ -369,7 +374,9 @@
         "backgroundColor": 6,
         "guideTextStyle": "projectSettingsGuide",
         "tokenTextStyle": "projectSettingsToken",
-        "bleHintLabelTextStyle": "bleHintLabel"
+        "bleHintLabelTextStyle": "bleHintLabel",
+        "energyIconColor": 0,
+        "energyRecycleTextStyle": "energyRecycleLabel"
     },
 
     "WidgetBaseStyle": {
