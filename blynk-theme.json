@@ -348,6 +348,16 @@
             "size": 16,
             "font": "primary",
             "color": 0
+        },
+        "amountTextLabel": {
+            "size": 24,
+            "font": "secondary",
+            "color": 0
+        },
+        "priceTextLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 8
         }
     },
 
@@ -709,5 +719,10 @@
         "cancelDefaultTextStyle": "comissioningCancelDefault",
         "cancelWaitTextStyle": "comissioningCancelWait",
         "messageTextStyle": "comissioningText"
+    },
+
+    "Battery": {
+        "amountTextStyle": "amountTextLabel",
+        "priceTextStyle": "priceTextLabel"
     }
 }
