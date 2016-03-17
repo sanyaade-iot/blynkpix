@@ -695,7 +695,7 @@
         "energyStatusTextStyle": "energyStatusLabel",
         "addEnergyTextStyle": "addEnergyButtonLabel",
         "widgetEnergyCostTextStyle": "widgetEnergyCostLabel",
-        "widgetEnergyIconColor": 1,
+        "widgetEnergyIconColor": 3,
         "widgetMidEnergyIconColor": 12,
         "widgetLowEnergyIconColor": 13,
         "addEnergyBackgroundColor": 10
