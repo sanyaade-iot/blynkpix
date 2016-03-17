@@ -357,7 +357,8 @@
         "addEnergyButtonLabel": {
             "size": 16,
             "font": "secondary",
-            "color": 2
+            "color": 2,
+            "uppercase":true
         },
         "settingsEnergyRecycleLabel": {
             "size": 17,
@@ -375,9 +376,9 @@
             "color": 0
         },
         "priceTextLabel": {
-            "size": 12,
+            "size": 14,
             "font": "regular",
-            "color": 6
+            "color": 10
         }
     },
 
@@ -574,7 +575,9 @@
             "separatorColor": 8,
             "separatorAlpha": 0.5,
             "labelTextStyle": "settingsLabel",
-            "customizedPalette":[1, 6, 3, 4, 5]
+            "customizedPalette":[1, 6, 3, 4, 5],
+            "energyIconColor": 1,
+            "energyRecycleTextStyle": "projectEnergyRecycleLabel"
         },
 
         "Button": {
@@ -740,8 +743,22 @@
         "messageTextStyle": "comissioningText"
     },
 
-    "Battery": {
-        "amountTextStyle": "amountTextLabel",
-        "priceTextStyle": "priceTextLabel"
+    "Purchases": {
+        "Battery": {
+            "amountTextStyle": "amountTextLabel",
+            "priceTextStyle": "priceTextLabel"
+        },
+        
+        "separatorColor": 8,
+        "separatorAlpha": 0.5,
+
+        "BuyButton": {
+            
+            "selectedAlpha": 0.35,
+            "strokeWidth": 0,
+            "cornerRadius": 4,
+            "backgroundColor": 10,
+            "labelTextStyle": "addEnergyButtonLabel"
+        }
     }
 }
