@@ -352,7 +352,7 @@
         "widgetEnergyCostLabel": {
             "size": 14,
             "font": "gauge",
-            "color": 1
+            "color": 3
         },
         "addEnergyButtonLabel": {
             "size": 16,
