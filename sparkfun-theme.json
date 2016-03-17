@@ -359,10 +359,15 @@
             "font": "secondary",
             "color": 2
         },
-        "energyRecycleLabel": {
-            "size": 14,
+        "settingsEnergyRecycleLabel": {
+            "size": 17,
             "font": "gauge",
             "color": 1
+        },
+        "projectEnergyRecycleLabel": {
+            "size": 19,
+            "font": "gauge",
+            "color": 0
         },
         "amountTextLabel": {
             "size": 18,
@@ -391,7 +396,8 @@
         "loaderIndicatorAlpha": 1,
         "loaderBackgroundColor": 2,
         "loaderBackgroundAlpha": 0.3,
-        "linkColor": 1
+        "linkColor": 1,
+        "energyRecycleTextStyle": "projectEnergyRecycleLabel"
     },
 
     "ProjectSettings": {
@@ -401,7 +407,7 @@
         "tokenTextStyle": "projectSettingsToken",
         "bleHintLabelTextStyle": "bleHintLabel",
         "energyIconColor": 1,
-        "energyRecycleTextStyle": "energyRecycleLabel"
+        "energyRecycleTextStyle": "settingsEnergyRecycleLabel"
     },
 
     "WidgetBaseStyle": {
