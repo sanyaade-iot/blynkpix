@@ -775,6 +775,7 @@
         "adsTitleTextStyle": "adsTitleLabel",
         "freePriceTextStyle": "freePriceLabel",
         "energyBalanceTextStyle": "energyBalanceLabel",
-        "choosePackTitleTextStyle": "choosePackLabel"
+        "choosePackTitleTextStyle": "choosePackLabel",
+        "energyStatusTextStyle": "energyStatusLabel"
     }
 }
