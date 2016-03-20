@@ -15,7 +15,8 @@
                "#B3B3B3",
                "#000000",
                "#131319",
-               "#0a0a0d"
+               "#0a0a0d",
+               "#535353"
                ],
     
     "fonts": {
@@ -364,6 +365,28 @@
             "size": 16,
             "font": "primary",
             "color": 8
+        },
+        "adsTitleLabel": {
+            "size": 14,
+            "font": "primary",
+            "color": 8
+        },
+        "freePriceLabel": {
+            "size": 18,
+            "font": "primary",
+            "color": 4,
+            "uppercase": true
+        },
+        "energyBalanceLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 12,
+            "uppercase": true
+        },
+        "choosePackLabel": {
+            "size": 24,
+            "font": "primary",
+            "color": 0
         }
     },
 
@@ -704,7 +727,8 @@
         "widgetEnergyIconColor": 1,
         "widgetMidEnergyIconColor": 4,
         "widgetLowEnergyIconColor": 5,
-        "addEnergyBackgroundColor": 1
+        "addEnergyBackgroundColor": 1,
+        "energyBalanceTextStyle": "energyBalanceLabel",
     },
 
     "Tutorial": {
@@ -746,6 +770,11 @@
             "strokeWidth": 0,
             "backgroundColor": 1,
             "labelTextStyle": "addEnergyButtonLabel"
-        }
+        },
+        
+        "adsTitleTextStyle": "adsTitleLabel",
+        "freePriceTextStyle": "freePriceLabel",
+        "energyBalanceTextStyle": "energyBalanceLabel",
+        "choosePackTitleTextStyle": "choosePackLabel"
     }
 }
