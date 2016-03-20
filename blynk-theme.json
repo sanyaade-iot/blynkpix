@@ -367,9 +367,10 @@
             "color": 8
         },
         "adsTitleLabel": {
-            "size": 14,
+            "size": 12,
             "font": "primary",
-            "color": 8
+            "color": 12,
+            "uppercase": true
         },
         "freePriceLabel": {
             "size": 18,
@@ -378,7 +379,7 @@
             "uppercase": true
         },
         "energyBalanceLabel": {
-            "size": 16,
+            "size": 12,
             "font": "primary",
             "color": 12,
             "uppercase": true
