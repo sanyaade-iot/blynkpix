@@ -349,7 +349,7 @@
             "color": 0
         },
         "widgetEnergyCostLabel": {
-            "size": 14,
+            "size": 15,
             "font": "gauge",
             "color": 3
         },
@@ -401,6 +401,22 @@
             "size": 24,
             "font": "regular",
             "color": 0
+        },
+        "lowEnergyAlertMessageLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 6
+        },
+        "lowEnergyAlertCancelLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 1
+        },
+        "lowEnergyAlertOKLabel": {
+            "size": 18,
+            "font": "secondary",
+            "color": 2,
+            "uppercase":true
         }
     },
 
@@ -788,6 +804,16 @@
         "freePriceTextStyle": "freePriceLabel",
         "energyBalanceTextStyle": "energyBalanceLabel",
         "choosePackTitleTextStyle": "choosePackLabel",
-        "energyStatusTextStyle": "energyStatusLabel"
-    }
+        "energyStatusTextStyle": "energyStatusLabel",
+        
+        "LowEnergyAlert": {
+            "messageTextStyle": "lowEnergyAlertMessageLabel",
+            "batteryColor": 1,
+            "okTextStyle": "lowEnergyAlertOKLabel",
+            "cancelTextStyle": "lowEnergyAlertCancelLabel",
+            "overlayColor": 2,
+            "overlayAlpha": 0.6,
+            "backgroundColor": 0
+        }
+    },
 }

@@ -16,7 +16,8 @@
                "#000000",
                "#131319",
                "#0a0a0d",
-               "#535353"
+               "#535353",
+               "#757575"
                ],
     
     "fonts": {
@@ -336,7 +337,7 @@
             "color": 0
         },
         "widgetEnergyCostLabel": {
-            "size": 16,
+            "size": 17,
             "font": "primary",
             "color": 1
         },
@@ -388,6 +389,21 @@
             "size": 24,
             "font": "primary",
             "color": 0
+        },
+        "lowEnergyAlertMessageLabel": {
+            "size": 18,
+            "font": "primary",
+            "color": 0
+        },
+        "lowEnergyAlertCancelLabel": {
+            "size": 18,
+            "font": "primary",
+            "color": 13
+        },
+        "lowEnergyAlertOKLabel": {
+            "size": 24,
+            "font": "primary",
+            "color": 9
         }
     },
 
@@ -777,6 +793,16 @@
         "freePriceTextStyle": "freePriceLabel",
         "energyBalanceTextStyle": "energyBalanceLabel",
         "choosePackTitleTextStyle": "choosePackLabel",
-        "energyStatusTextStyle": "energyStatusLabel"
+        "energyStatusTextStyle": "energyStatusLabel",
+        
+        "LowEnergyAlert": {
+            "messageTextStyle": "lowEnergyAlertMessageLabel",
+            "batteryColor": 5,
+            "okTextStyle": "lowEnergyAlertOKLabel",
+            "cancelTextStyle": "lowEnergyAlertCancelLabel",
+            "overlayColor": 9,
+            "overlayAlpha": 0.8,
+            "backgroundColor": 6
+        }
     }
 }
