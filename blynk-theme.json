@@ -404,6 +404,16 @@
             "size": 24,
             "font": "primary",
             "color": 9
+        },
+        "energyTutTitleLabel": {
+            "size": 18,
+            "font": "primary",
+            "color": 0
+        },
+        "energyTutTextLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 0
         }
     },
 
@@ -806,6 +816,20 @@
             "overlayColor": 9,
             "overlayAlpha": 0.8,
             "backgroundColor": 6
+        }
+    },
+
+    "EnergyTutorial": {
+        "backgroundColor": 6,
+        "imageBackgroundColor": 0,
+        "textBackgroundColor": 1,
+        "titleTextStyle": "energyTutTitleLabel",
+        "descriptionTextStyle": "energyTutTextLabel",
+
+        "OkButton": {
+            "strokeWidth": 9,
+            "backgroundColor": 1,
+            "labelTextStyle": "settingsPrimaryButton"
         }
     }
 }
