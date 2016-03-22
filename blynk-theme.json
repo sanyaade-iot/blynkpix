@@ -408,12 +408,12 @@
         "energyTutTitleLabel": {
             "size": 18,
             "font": "primary",
-            "color": 0
+            "color": 9
         },
         "energyTutTextLabel": {
             "size": 16,
             "font": "primary",
-            "color": 0
+            "color": 9
         }
     },
 
@@ -827,7 +827,8 @@
         "descriptionTextStyle": "energyTutTextLabel",
 
         "OkButton": {
-            "strokeWidth": 9,
+            "strokeWidth": 1,
+            "strokeColor": 9,
             "backgroundColor": 1,
             "labelTextStyle": "settingsPrimaryButton"
         }

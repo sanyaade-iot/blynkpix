@@ -838,7 +838,8 @@
         "descriptionTextStyle": "energyTutTextLabel",
 
         "OkButton": {
-            "strokeWidth": 0,
+            "strokeWidth": 1,
+            "strokeColor": 0,
             "backgroundColor": 1,
             "labelTextStyle": "settingsPrimaryButton"
         }
