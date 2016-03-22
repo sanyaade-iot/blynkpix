@@ -423,7 +423,10 @@
         "loaderBackgroundColor": 9,
         "loaderBackgroundAlpha": 0.6,
         "linkColor": 1,
-        "energyRecycleTextStyle": "projectEnergyRecycleLabel"
+        "energyRecycleTextStyle": "projectEnergyRecycleLabel",
+        "headerDragWidgetTintColor": 9,
+        "headerDeleteWidgetTintColor": 0,
+        "headerDeleteWidgetBackgroundColor": 5
     },
 
     "ProjectSettings": {
