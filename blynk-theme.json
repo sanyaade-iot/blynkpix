@@ -748,7 +748,7 @@
         "widgetMidEnergyIconColor": 4,
         "widgetLowEnergyIconColor": 5,
         "addEnergyBackgroundColor": 1,
-        "energyBalanceTextStyle": "energyBalanceLabel",
+        "energyBalanceTextStyle": "energyBalanceLabel"
     },
 
     "Tutorial": {
