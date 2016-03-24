@@ -414,6 +414,11 @@
             "size": 16,
             "font": "primary",
             "color": 9
+        },
+        "projectEnergyCostLabel": {
+            "size": 12,
+            "font": "primary",
+            "color": 1
         }
     },
 
@@ -446,7 +451,8 @@
         "tokenTextStyle": "projectSettingsToken",
         "bleHintLabelTextStyle": "bleHintLabel",
         "energyIconColor": 0,
-        "energyRecycleTextStyle": "settingsEnergyRecycleLabel"
+        "energyRecycleTextStyle": "settingsEnergyRecycleLabel",
+        "energyCostTextStyle": "projectEnergyCostLabel"
     },
 
     "WidgetBaseStyle": {
