@@ -429,7 +429,7 @@
             "color": 0
         },
         "projectEnergyCostLabel": {
-            "size": 12,
+            "size": 16,
             "font": "primary",
             "color": 1
         }
