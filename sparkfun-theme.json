@@ -553,7 +553,8 @@
             "inputLineTextStyle" : "terminalInputLine",
             "lightColor": 0,
             "darkColor": 2,
-            "defaultColor": 6
+            "defaultColor": 6,
+            "shouldStyleBackground": true
         },
 
         "LED": {
