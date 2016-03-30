@@ -538,7 +538,7 @@
             "inputLineTextStyle" : "terminalInputLine",
             "lightColor": 0,
             "darkColor": 9,
-            "defaultColor": 0
+            "defaultColor": 9
         },
 
         "LED": {
@@ -724,7 +724,8 @@
 
         "Terminal" : {
             "textLabelTextStyle" : "settingsTerminalLabel",
-            "fontLabelTextStyle" : "settingsLarge"
+            "fontLabelTextStyle" : "settingsLarge",
+            "customizedPalette":[9, 1, 2, 3, 4, 5, 0]
         },
 
         "Joystick" : {
