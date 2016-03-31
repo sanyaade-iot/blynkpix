@@ -617,6 +617,11 @@
             "strokeColor": 6,
             "defaultColor": 1,
             "color": 6
+        },
+        
+        "MENU":{
+            "valueTextStyle": "valueDisplayValueLabel",
+            "valueLabelTopOffset": 3
         }
     },
 
