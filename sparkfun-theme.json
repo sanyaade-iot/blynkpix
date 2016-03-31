@@ -757,6 +757,16 @@
             "errorLabelTextStyle": "errorBLELabel",
             "statusLabelTextStyle": "statusBLELabel",
             "deviceNameColor": 1
+        },
+        "LabeledValue": {
+            "allignmentButton": {
+                "cornerRadius": 2,
+                "strokeWidth": 0,
+                "backgroundColor": 0,
+                "backgroundSelectedColor": 6,
+                "iconColor": 6,
+                "iconSelectedColor": 0
+            }
         }
     },
 

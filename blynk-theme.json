@@ -17,7 +17,8 @@
                "#131319",
                "#0a0a0d",
                "#535353",
-               "#757575"
+               "#757575",
+               "#898989"
                ],
     
     "fonts": {
@@ -745,6 +746,16 @@
             "errorLabelTextStyle": "errorBLELabel",
             "statusLabelTextStyle": "statusBLELabel",
             "deviceNameColor": 1
+        },
+        "LabeledValue": {
+            "allignmentButton": {
+                "cornerRadius": 2,
+                "strokeWidth": 0,
+                "backgroundColor": 6,
+                "backgroundSelectedColor": 14,
+                "iconColor": 14,
+                "iconSelectedColor": 6
+            }
         }
     },
 
