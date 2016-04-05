@@ -635,7 +635,7 @@
             "tabItemTextStyle": "tabItem",
             "separatorColor": 8,
             "separatorAlpha": 0.5,
-            "settingsColor": 8,
+            "settingsColor": 2,
             "selectedColor": 1
         }
     },
