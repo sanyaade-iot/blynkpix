@@ -432,6 +432,13 @@
             "size": 16,
             "font": "primary",
             "color": 1
+        },
+        "tabItem": {
+            "size": 12,
+            "color": 2,
+            "font": "gauge",
+            "alpha": 0.7,
+            "uppercase": true
         }
     },
 
@@ -622,6 +629,14 @@
         "MENU":{
             "valueTextStyle": "valueDisplayValueLabel",
             "valueLabelTopOffset": 3
+        },
+
+        "Tabs": {
+            "tabItemTextStyle": "tabItem",
+            "separatorColor": 8,
+            "separatorAlpha": 0.5,
+            "settingsColor": 8,
+            "selectedColor": 1
         }
     },
 
