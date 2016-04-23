@@ -1,0 +1,885 @@
+{
+    "name": "SparkFun",
+    "description": "SparkFun boards theme",
+    "version": 1,
+    
+    "colors": [
+               "#FFFFFF",
+               "#E6321E",
+               "#000000",
+               "#64AC83",
+               "#7091A9",
+               "#B1B3A0",
+               "#3C464D",
+               "#D2D8DC",
+               "#7D918B",
+               "#9EA3A6",
+               "#E3DCCC",
+               "#A4B2AE",
+               "#F2AF59"
+               ],
+    
+    "fonts": {
+        "primary": "Montserrat-Light",
+        "regular": "Montserrat-Regular",
+        "secondary": "Gauge-Heavy",
+        "terminal": "AndaleMono",
+        "lcd": "Erbos-Draco-1st-Open-NBP",
+        "gauge": "Gauge-Regular"
+    },
+    
+    "textStyles": {
+        "widgetLarge": {
+            "size": 24,
+            "color": 1,
+            "font": "gauge"
+        },
+        "widgetSmall": {
+            "size": 9,
+            "color": 2,
+            "font": "gauge",
+            "alpha": 0.7
+        },
+        "header": {
+            "size": 18,
+            "color": 0,
+            "font": "primary",
+            "bottomInset": 3
+        },
+        "widgetButtonNormal": {
+            "size": 15,
+            "color": 0,
+            "font": "gauge",
+            "alpha": 1
+        },
+        "timestamp": {
+            "size": 7,
+            "color": 6,
+            "font": "primary",
+            "alpha": 1
+        },
+        "legend1": {
+            "size": 10,
+            "color": 1,
+            "font": "primary"
+        },
+        "legend2": {
+            "size": 10,
+            "color": 2,
+            "font": "primary"
+        },
+        "legend3": {
+            "size": 10,
+            "color": 5,
+            "font": "primary"
+        },
+        "legend4": {
+            "size": 10,
+            "color": 4,
+            "font": "primary"
+        },
+        "settingsLabel": {
+            "size": 8,
+            "color": 8,
+            "font": "gauge",
+            "alpha": 1.0
+        },
+        "settingsInputField": {
+            "size": 18,
+            "color": 2,
+            "font": "regular"
+        },
+        "settingsInputPinField": {
+            "size": 18,
+            "color": 2,
+            "font": "gauge",
+            "uppercase": true
+        },
+        "selectedSettingsInputPinField": {
+            "size": 18,
+            "color": 2,
+            "alpha": 0.4,
+            "font": "gauge",
+            "uppercase": true
+        },
+        "settingsRangeField": {
+            "size": 18,
+            "color": 6,
+            "font": "gauge",
+            "alpha": 1
+        },
+        "settingsLarge": {
+            "size": 15,
+            "color": 6,
+            "font": "primary"
+        },
+        "settingsHint": {
+            "size": 16,
+            "color": 2,
+            "font": "terminal"
+        },
+        "settingsSmall": {
+            "size": 12,
+            "color": 2,
+            "font": "primary"
+        },
+        "settingsPrimaryButton": {
+            "size": 15,
+            "color": 0,
+            "font": "secondary",
+            "uppercase": true
+        },
+        "settingsSecondaryButton1": {
+            "size": 15,
+            "color": 2,
+            "font": "secondary",
+            "uppercase": true
+        },
+        "settingsSecondaryButton2": {
+            "size": 15,
+            "color": 2,
+            "font": "secondary",
+            "uppercase": true
+        },
+        "settingsCriticalButton": {
+            "size": 15,
+            "color": 1,
+            "font": "secondary",
+            "uppercase": true
+        },
+        "switchIdleLabel": {
+            "size": 18,
+            "color": 9,
+            "font": "gauge",
+            "alpha": 0.8
+        },
+        "switchActiveLabel": {
+            "size": 18,
+            "color": 6,
+            "font": "gauge",
+            "uppercase": true
+        },
+        "settingsTerminalLabel": {
+            "size": 12,
+            "color": 2,
+            "font": "terminal"
+        },
+        "settingsSwitchButton": {
+            "size": 19,
+            "color": 0,
+            "font": "primary",
+            "uppercase": true
+        },
+        "lcdMessageLabel": {
+            "size": 21,
+            "font": "lcd"
+        },
+        "terminalInputLine": {
+            "size": 12,
+            "font": "terminal"
+        },
+        "widgetPinLabel": {
+            "size": 9,
+            "font": "gauge",
+            "color": 8
+        },
+        "projectSettingsGuide": {
+            "size": 15,
+            "font": "primary",
+            "color": 8
+        },
+        "projectSettingsToken": {
+            "size": 13,
+            "font": "gauge",
+            "color": 1,
+            "uppercase": true
+        },
+        "dashboardMessage": {
+            "size": 12,
+            "font": "regular",
+            "color": 0
+        },
+        "settingsBusyPin": {
+            "size": 12,
+            "color": 4,
+            "font": "regular"
+        },
+        "settingsPwmPin": {
+            "size": 12,
+            "color": 5,
+            "font": "regular"
+        },
+        "pickerHeader": {
+            "size": 14,
+            "color": 1,
+            "font": "primary"
+        },
+        "timerValueLabel": {
+            "size": 24,
+            "font": "gauge"
+        },
+        "valueDisplayValueLabel": {
+            "size": 24,
+            "font": "gauge"
+        },
+        "intervalBorderLabel": {
+            "size": 15,
+            "font": "primary",
+            "color": 6
+        },
+        "historyGraphMessage": {
+            "size": 12,
+            "font": "primary",
+            "color": 8
+        },
+        "usernameTwitterLabel": {
+            "size": 17,
+            "font": "primary",
+            "color": 1
+        },
+        "connectedTwitterLabel": {
+            "size": 17,
+            "font": "primary",
+            "color": 2
+        },
+        "widgetGroupLabel": {
+            "size": 8,
+            "font": "gauge",
+            "color": 8,
+            "uppercase": true
+        },
+        "widgetNameLabel": {
+            "size": 18,
+            "font": "primary",
+            "color": 0
+        },
+        "widgetInstalledLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 3
+        },
+        "tutTitleLabel": {
+            "size": 15,
+            "font": "primary",
+            "color": 0
+        },
+        "tutTextLabel": {
+            "size": 13,
+            "font": "primary",
+            "color": 0
+        },
+        "shareTitleLabel": {
+            "size": 16,
+            "font": "regular",
+            "color": 6
+        },
+        "shareSubtitleLabel": {
+            "size": 13,
+            "font": "primary",
+            "color": 1
+        },
+        "shareMessageLabel": {
+            "size": 12,
+            "font": "primary",
+            "color": 2
+        },
+        "settingsLCDLabel": {
+            "size": 18,
+            "color": 2,
+            "font": "primary"
+        },
+        "settingsPinType": {
+            "size": 18,
+            "color": 6,
+            "font": "primary"
+        },
+        "settingsPinNumber": {
+            "size": 24,
+            "color": 6,
+            "font": "regular"
+        },
+        "loggerRangeLabel": {
+            "size": 14,
+            "color": 0,
+            "font": "regular"
+        },
+        "bleHintLabel": {
+            "size": 16,
+            "color": 2,
+            "font": "primary"
+        },
+        "errorBLELabel": {
+            "size": 15,
+            "color": 1,
+            "font": "primary"
+        },
+        "statusBLELabel": {
+            "size": 18,
+            "color": 2,
+            "font": "primary"
+        },
+        "comissioningTitleLabel": {
+            "size": 20,
+            "font": "regular",
+            "color": 6
+        },
+        "comissioningSubtitleLabel": {
+            "size": 15,
+            "font": "regular",
+            "color": 6
+        },
+        "comissioningCancelDefault": {
+            "size": 15,
+            "font": "regular",
+            "color": 7
+        },
+        "comissioningCancelWait": {
+            "size": 15,
+            "font": "regular",
+            "color": 1
+        },
+        "comissioningText": {
+            "size": 12,
+            "font": "regular",
+            "color": 2
+        },
+        "energyStatusLabel": {
+            "size": 18,
+            "font": "gauge",
+            "color": 0
+        },
+        "widgetEnergyCostLabel": {
+            "size": 15,
+            "font": "gauge",
+            "color": 3
+        },
+        "addEnergyButtonLabel": {
+            "size": 16,
+            "font": "secondary",
+            "color": 2,
+            "uppercase":true
+        },
+        "settingsEnergyRecycleLabel": {
+            "size": 17,
+            "font": "gauge",
+            "color": 1
+        },
+        "projectEnergyRecycleLabel": {
+            "size": 19,
+            "font": "gauge",
+            "color": 0
+        },
+        "amountTextLabel": {
+            "size": 18,
+            "font": "regular",
+            "color": 0
+        },
+        "priceTextLabel": {
+            "size": 14,
+            "font": "regular",
+            "color": 10
+        },
+        "adsTitleLabel": {
+            "size": 8,
+            "font": "gauge",
+            "color": 8,
+            "uppercase": true
+        },
+        "freePriceLabel": {
+            "size": 18,
+            "font": "regular",
+            "color": 4,
+            "uppercase": true
+        },
+        "energyBalanceLabel": {
+            "size": 8,
+            "font": "gauge",
+            "color": 8,
+            "uppercase": true
+        },
+        "choosePackLabel": {
+            "size": 24,
+            "font": "regular",
+            "color": 0
+        },
+        "lowEnergyAlertMessageLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 6
+        },
+        "lowEnergyAlertCancelLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 1
+        },
+        "lowEnergyAlertOKLabel": {
+            "size": 18,
+            "font": "secondary",
+            "color": 2,
+            "uppercase":true
+        },
+        "energyTutTitleLabel": {
+            "size": 15,
+            "font": "primary",
+            "color": 0
+        },
+        "energyTutTextLabel": {
+            "size": 13,
+            "font": "primary",
+            "color": 0
+        },
+        "projectEnergyCostLabel": {
+            "size": 16,
+            "font": "primary",
+            "color": 1
+        },
+        "tabItem": {
+            "size": 12,
+            "color": 2,
+            "font": "gauge",
+            "alpha": 0.7,
+            "uppercase": true
+        }
+    },
+
+    "Dashboard": {
+
+        "backgroundColor": 7,
+        "sharedBackgroundColor": 0,
+        "messageBackgroundColor": 11,
+        "messageTextStyle": "dashboardMessage",
+        "cell": "img_project_bg_sf",
+        "highlightCell": "img_project_bg_highlight",
+        "widgetDragShadowColor": 2,
+        "widgetDragShadowAlpha": 0.5,
+        "widgetDragShadowRadius": 10,
+        "loaderIndicatorColor": 1,
+        "loaderIndicatorAlpha": 1,
+        "loaderBackgroundColor": 2,
+        "loaderBackgroundAlpha": 0.3,
+        "linkColor": 1,
+        "energyRecycleTextStyle": "projectEnergyRecycleLabel",
+        "headerDragWidgetTintColor": 2,
+        "headerDeleteWidgetTintColor": 0,
+        "headerDeleteWidgetBackgroundColor": 1
+    },
+
+    "ProjectSettings": {
+
+        "backgroundColor": 0,
+        "guideTextStyle": "projectSettingsGuide",
+        "tokenTextStyle": "projectSettingsToken",
+        "bleHintLabelTextStyle": "bleHintLabel",
+        "energyIconColor": 1,
+        "energyRecycleTextStyle": "settingsEnergyRecycleLabel",
+        "energyCostTextStyle": "projectEnergyCostLabel"
+    },
+
+    "WidgetBaseStyle": {
+
+        "borderStrokeWidth": 1,
+        "borderStrokeColor": 7,
+        "backgroundColor": 0,
+        "cornerRadius": 2,
+        "nameLabelTextStyle": "widgetSmall",
+        "pinLabelTextStyle": "widgetPinLabel",
+        "shadowColor": 7,
+        "shadowAlpha": 0.4,
+        "highlightedShadowColor": 0,
+        "highlightColor": 0,
+        "highlightAlpha": 0.25,
+        "defaultReadColor": 1,
+        "defaultWriteColor": 1,
+
+        "Button": {
+            "textStyle": "widgetButtonNormal",
+            "defaultColor": 1
+        },
+
+        "Slider": {
+            "handleStrokeColor": 0,
+            "handleStrokeAlpha": 1,
+            "handleStrokeWidth": 1,
+            "handleFillColor": 0,
+            "handleCornerRadius": 50,
+            "handleShadowColor": 6,
+            "handleShadowAlpha": 0.2,
+            "handleShadowBlur": 5.0,
+            "pathColor": 0,
+            "pathAlpha": 0.3,
+            "pathCornerRadius": 1,
+            "progressCornerRadius": 4,
+            "defaultColor": 1
+        },
+
+        "Gauge": {
+            "valueLabelTextStyle": "widgetLarge",
+            "minMaxLabelTextStyle": "widgetSmall",
+            "pathBackgroundColor": 9,
+            "pathBackgroundAlpha": 0.3,
+            "defaultColor": 1
+        },
+
+        "HistoryGraph": {
+            "legend1LabelTextStyle": "legend1",
+            "legend2LabelTextStyle": "legend2",
+            "legend3LabelTextStyle": "legend3",
+            "legend4LabelTextStyle": "legend4",
+            "timestampLabelTextStyle": "timestamp",
+            "rangeSelectorPressedColor": 1,
+            "rangeSelectorPressedAlpha": 1,
+            "rangeSelectorIdleColor": 9,
+            "rangeSelectorIdleAlpha": 1,
+            "rangeSelectorTextStyle": "loggerRangeLabel",
+            "gridLinesColor": 6,
+            "gridLinesAlpha": 0.5,
+            "graphLine1Color": 1,
+            "graphLine2Color": 6,
+            "graphLine3Color": 3,
+            "graphLine4Color": 4,
+            "gridBackgroundColor": 6,
+            "gridBackgroundAlpha": 0.05,
+            "messageTextStyle": "historyGraphMessage",
+            "defaultColor": 1
+        },
+
+        "LCD": {
+            "messageLabelTextStyle": "lcdMessageLabel",
+            "logoImage": "img_sparkfun_logo",
+            "defaultColor": 1
+        },
+
+        "zeRGBa":{
+            "handleStrokeColor": 0,
+            "handleStrokeWidth": 2,
+            "pinValuesTextStyle" : "widgetPinLabel",
+            "defaultColor": 1
+        },
+
+        "Terminal":{
+            "inputLineTextStyle" : "terminalInputLine",
+            "lightColor": 0,
+            "darkColor": 2,
+            "defaultColor": 6
+        },
+
+        "LED": {
+            "strokeColor": 6,
+            "defaultColor": 1
+        },
+
+        "Timer": {
+            "timerTextStyle": "timerValueLabel",
+            "defaultColor": 1
+        },
+
+        "ValueDisplay": {
+            "valueTextStyle": "valueDisplayValueLabel",
+            "defaultColor": 1
+        },
+
+        "Joystick": {
+            "backgroundColor": 2,
+            "backgroundAlpha": 0.1,
+            "backgroundStrokeColor": 2,
+            "backgroundStrokeAlpha": 0.2,
+            "backgroundStrokeWidth": 7,
+            "handleStrokeColor": 0,
+            "handleStrokeWidth": 7,
+            "defaultColor": 1
+        },
+        "Graph": {
+            "timestampLabelTextStyle": "timestamp",
+            "gridLinesColor": 2,
+            "gridLinesAlpha": 0.15,
+            "gridBackgroundColor": 0,
+            "gridBackgroundAlpha": 1,
+            "defaultColor": 1
+        },
+
+        "Bridge": {
+            "color": 6
+        },
+
+        "Twitter": {
+            "color": 6
+        },
+
+        "Mail": {
+            "color": 6
+        },
+
+        "Notification": {
+            "color": 6
+        },
+
+        "BLE": {
+            "enabledColor": 1,
+            "enabledAlpha": 1,
+            "disabledColor": 6,
+            "disabledAlpha": 0.5
+        },
+
+        "RTC": {
+            "strokeColor": 6,
+            "defaultColor": 1,
+            "color": 6
+        },
+        
+        "MENU":{
+            "valueTextStyle": "valueDisplayValueLabel",
+            "valueLabelTopOffset": 3
+        },
+
+        "Tabs": {
+            "tabItemTextStyle": "tabItem",
+            "separatorColor": 8,
+            "separatorAlpha": 0.5,
+            "settingsColor": 2,
+            "selectedColor": 1,
+            "sharingModeBackgroundColor": 7
+        }
+    },
+
+    "Header": {
+        "backgroundColor":1,
+        "textStyle": "header"
+    },
+
+    "WidgetSettings": {
+        "Body": {
+            "backgroundColor": 0,
+            "illustrationsBackgroundColor": 6,
+            "separatorColor": 8,
+            "separatorAlpha": 0.5,
+            "labelTextStyle": "settingsLabel",
+            "customizedPalette":[1, 6, 3, 4, 5],
+            "energyIconColor": 1,
+            "energyRecycleTextStyle": "projectEnergyRecycleLabel"
+        },
+
+        "Button": {
+
+            "selectedAlpha": 0.35,
+            "strokeWidth": 0,
+            "cornerRadius": 4,
+
+            "PrimaryButton": {
+                "backgroundColor": 1,
+                "labelTextStyle": "settingsPrimaryButton"
+            },
+
+            "SecondaryButton1": {
+                "backgroundColor": 10,
+                "labelTextStyle": "settingsSecondaryButton1"
+            },
+
+            "SecondaryButton2": {
+                "backgroundColor": 7,
+                "labelTextStyle": "settingsSecondaryButton2"
+            },
+
+            "CriticalButton": {
+                "backgroundAlpha": 0.2,
+                "backgroundColor": 1,
+                "labelTextStyle": "settingsCriticalButton"
+            }
+        },
+
+        "InputField": {
+            "strokeColor": 9,
+            "strokeAlpha": 1,
+            "strokeUnselectedAlpha": 1.0,
+            "textStyle": "settingsInputField",
+            "hintAlpha": 0.5,
+            "cornerRadius": 3,
+            "strokeWidth": 2,
+            "textBottomInset": 0
+        },
+
+        "InputPinField": {
+            "strokeColor": 2,
+            "strokeAlpha": 1,
+            "strokePressedAlpha": 1.0,
+            "textStyle": "settingsInputPinField",
+            "selectedTextStyle": "selectedSettingsInputPinField",
+            "pinColors":[3, 4, 9, 2],
+            "cornerRadius": 3,
+            "strokeWidth": 2,
+            "textBottomInset": 3
+        },
+
+        "InputRangeField": {
+            "strokeColor": 9,
+            "strokeAlpha": 1,
+            "strokeUnselectedAlpha": 1.0,
+            "textStyle": "settingsRangeField",
+            "hintAlpha": 0.5,
+            "cornerRadius": 3,
+            "strokeWidth": 2,
+            "textBottomInset": 3
+        },
+
+        "Switch": {
+            "strokeColor": 6,
+            "circleColor": 6,
+            "activeLabelTextStyle": "switchActiveLabel",
+            "idleLabelTextStyle": "switchIdleLabel"
+        },
+
+        "Picker": {
+            "headerTextStyle": "pickerHeader",
+            "backgroundColor": 0,
+            "pinTypeTextStyle": "settingsPinType",
+            "pinNumberTextStyle": "settingsPinNumber",
+            "busyTextStyle": "settingsBusyPin",
+            "pwmTextStyle": "settingsPwmPin",
+            "separatorColor": 9,
+            "separatorAlpha": 0.45,
+            "shadowColor": 6,
+            "shadowAlpha": 0.8
+        },
+
+        "LCD" : {
+            "label1Color" :  3,
+            "label2Color" :  4,
+            "labelsTextStyle" : "settingsLCDLabel",
+            "fontLabelTextStyle" : "settingsLarge",
+            "codeLabelTextStyle" : "settingsTerminalLabel"
+        },
+
+        "zeRGBa" : {
+            "rangeValues1Color" :  1,
+            "rangeValues2Color" :  3,
+            "rangeValues3Color" :  4,
+            "codeLabelTextStyle" : "settingsTerminalLabel"
+        },
+
+        "Terminal" : {
+            "textLabelTextStyle" : "settingsTerminalLabel",
+            "fontLabelTextStyle" : "settingsLarge",
+            "customizedPalette":[1, 6, 3, 4, 5]
+        },
+
+        "Joystick" : {
+            "codeLabelTextStyle" : "settingsTerminalLabel"
+        },
+
+        "Timer": {
+            "intervalBorderTextStyle": "intervalBorderLabel"
+        },
+
+        "Twitter": {
+            "userNameTextStyle": "usernameTwitterLabel",
+            "connectedTextStyle": "connectedTwitterLabel"
+        },
+
+        "BLE": {
+            "errorLabelTextStyle": "errorBLELabel",
+            "statusLabelTextStyle": "statusBLELabel",
+            "deviceNameColor": 1
+        },
+        "LabeledValue": {
+            "allignmentButton": {
+                "cornerRadius": 2,
+                "strokeWidth": 0,
+                "backgroundColor": 0,
+                "backgroundSelectedColor": 6,
+                "iconColor": 6,
+                "iconSelectedColor": 0
+            }
+        }
+    },
+
+    "WidgetBox": {
+        "backgroundColor": 6,
+        "separatorColor": 8,
+
+        "widgetGroupTextStyle": "widgetGroupLabel",
+        "widgetNameTextStyle": "widgetNameLabel",
+        "widgetInstalledTextStyle": "widgetInstalledLabel",
+        "iconColor": 2,
+        
+        "energyStatusTextStyle": "energyStatusLabel",
+        "addEnergyTextStyle": "addEnergyButtonLabel",
+        "widgetEnergyCostTextStyle": "widgetEnergyCostLabel",
+        "widgetEnergyIconColor": 3,
+        "widgetMidEnergyIconColor": 12,
+        "widgetLowEnergyIconColor": 1,
+        "addEnergyBackgroundColor": 10,
+        "energyBalanceTextStyle": "energyBalanceLabel"
+    },
+
+    "Tutorial": {
+        "backgroundColor": 7,
+        "imageBackgroundColor": 0,
+        "textBackgroundColor": 6,
+        "titleTextStyle": "tutTitleLabel",
+        "descriptionTextStyle": "tutTextLabel"
+    },
+
+    "Share": {
+        "backgroundColor": 0,
+        "titleTextStyle": "shareTitleLabel",
+        "subtitleTextStyle": "shareSubtitleLabel",
+        "messageTextStyle": "shareMessageLabel"
+    },
+
+    "Comissioning": {
+        "titleTextStyle": "comissioningTitleLabel",
+        "subtitleTextStyle": "comissioningSubtitleLabel",
+        "cancelDefaultTextStyle": "comissioningCancelDefault",
+        "cancelWaitTextStyle": "comissioningCancelWait",
+        "messageTextStyle": "comissioningText"
+    },
+
+    "Purchases": {
+        "Battery": {
+            "amountTextStyle": "amountTextLabel",
+            "priceTextStyle": "priceTextLabel"
+        },
+        
+        "separatorColor": 8,
+        "separatorAlpha": 0.5,
+
+        "BuyButton": {
+            
+            "selectedAlpha": 0.35,
+            "strokeWidth": 0,
+            "cornerRadius": 4,
+            "backgroundColor": 10,
+            "labelTextStyle": "addEnergyButtonLabel"
+        },
+
+        "adsTitleTextStyle": "adsTitleLabel",
+        "freePriceTextStyle": "freePriceLabel",
+        "energyBalanceTextStyle": "energyBalanceLabel",
+        "choosePackTitleTextStyle": "choosePackLabel",
+        "energyStatusTextStyle": "energyStatusLabel",
+        
+        "LowEnergyAlert": {
+            "messageTextStyle": "lowEnergyAlertMessageLabel",
+            "batteryColor": 1,
+            "okTextStyle": "lowEnergyAlertOKLabel",
+            "cancelTextStyle": "lowEnergyAlertCancelLabel",
+            "overlayColor": 2,
+            "overlayAlpha": 0.6,
+            "backgroundColor": 0
+        }
+    },
+
+    "EnergyTutorial": {
+        "backgroundColor": 7,
+        "imageBackgroundColor": 0,
+        "textBackgroundColor": 6,
+        "titleTextStyle": "energyTutTitleLabel",
+        "descriptionTextStyle": "energyTutTextLabel",
+
+        "OkButton": {
+            "strokeWidth": 1,
+            "strokeColor": 0,
+            "backgroundColor": 1,
+            "labelTextStyle": "settingsPrimaryButton"
+        }
+    }
+}
