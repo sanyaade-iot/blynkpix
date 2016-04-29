@@ -636,7 +636,8 @@
             "separatorColor": 8,
             "separatorAlpha": 0.5,
             "settingsColor": 2,
-            "selectedColor": 1
+            "selectedColor": 1,
+            "sharingModeBackgroundColor": 7
         }
     },
 
