@@ -38,7 +38,8 @@
             "size": 10,
             "color": 0,
             "font": "primary",
-            "alpha": 0.7
+            "alpha": 0.7,
+            "uppercase": true
         },
         "header": {
             "size": 24,
@@ -178,7 +179,8 @@
         "widgetPinLabel": {
             "size": 10,
             "font": "primary",
-            "color": 8
+            "color": 8,
+            "uppercase": true
         },
         "projectSettingsGuide": {
             "size": 19,

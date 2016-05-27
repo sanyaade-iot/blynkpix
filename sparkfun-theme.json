@@ -38,7 +38,8 @@
             "size": 9,
             "color": 2,
             "font": "gauge",
-            "alpha": 0.7
+            "alpha": 0.7,
+            "uppercase": true
         },
         "header": {
             "size": 18,
@@ -181,7 +182,8 @@
         "widgetPinLabel": {
             "size": 9,
             "font": "gauge",
-            "color": 8
+            "color": 8,
+            "uppercase": true
         },
         "projectSettingsGuide": {
             "size": 15,
